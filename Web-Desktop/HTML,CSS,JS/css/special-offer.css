@@ -1,0 +1,88 @@
+/* Reservation */
+
+.blok-reservation{
+  margin-top: 70px;
+  padding: 0;
+}
+
+
+.reservation{
+  display: flex;
+  flex-direction: column;
+
+}
+.form-reservation{
+  display: flex;
+  flex-direction: column;
+}
+.reserved-qty-offers{
+  margin-left: 30px;
+  font-size: 16px;
+  color: var(--color-font9);
+}
+.reservation-luxury{
+  min-height: 540px;
+ display: flex;
+ border-radius: 15px;
+ background-image: url("../img/22.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.luxury-block{
+  margin-top: auto;
+  margin-left: 45px;
+}
+
+.luxury-items{
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+
+}
+
+.luxury-name{
+  margin-bottom: 45px;
+  width: 60%;
+  font-size: 66px;
+
+  color: var(--color-white);
+}
+.luxury-cost{
+  font-size: 35px;
+  color: var(--color-font9);
+}
+.luxury-details{
+  margin-left: 70px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-orange-light);
+}
+.luxury-details:hover{
+  color: var(--color-grey-light);
+}
+.luxury-details:hover .luxury-icon-right{
+  stroke: var(--color-grey-light);
+}
+.luxury-icon-right{
+  stroke: var(--color-orange-light);
+}
+.reservetion-input{
+  max-width: 518px;
+}
+/* .luxury-details::after{
+  content: "\e903";
+  font-family: 'iconiko';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: var(--color-orange-light);
+  font-size: 20px;
+  padding-left: 10px;
+} */
+.luxury-details:hover::after{
+color: var(--color-grey-light);
+}

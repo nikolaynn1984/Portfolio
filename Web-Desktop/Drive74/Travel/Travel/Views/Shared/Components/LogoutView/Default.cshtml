@@ -1,0 +1,39 @@
+﻿<ul class="user-list">
+    @if (User.Identity.IsAuthenticated)
+    {
+    <li class="user-item">
+        <a href="#" class="log-link">
+                <span class="log-img icon-face"></span>
+                <p class="log-name">@User.Identity.Name</p>
+        </a>
+        <ul class="user-sublist">
+            <li class="user-subitem">
+                <a href="#" class="sub-log-link">Личный кабинет</a>
+            </li>
+            <li class="user-subitem">
+                <a href="#" class="sub-log-link">Мои поездки</a>
+            </li>
+            <li class="user-subitem">
+                <a href="#" class="sub-log-link">Мои комментарии</a>
+            </li>
+            <li class="user-subitem">
+                <form method="post" asp-controller="Account" asp-action="Logout" asp-antiforgery="true" id="logoutform">
+                    <a href="#" onclick="document.getElementById('logoutform').submit()" class="sub-log-link">Выйти</a>
+                </form>
+            </li>
+        </ul>
+    </li>
+
+        
+    }
+    else
+    {
+      <li class="user-item">
+         <a href="/Account/Login" class="log-link">
+            <span class="log-img icon-face"></span>
+            <p class="log-name">Личный кабинет</p>
+          </a>
+      </li>
+    }
+</ul>
+

@@ -1,0 +1,128 @@
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.deps.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.dev.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfoInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.genruntimeconfig.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.input.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.output.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorCoreGenerate.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\MainView\Index.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 20 - ASP.NET Core. Часть 1\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\Index.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.deps.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.dev.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfoInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.input.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.output.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorCoreGenerate.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\MainView\Index.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\Index.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.genruntimeconfig.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\EntityDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 21 - ASP.NET Core. Часть 2\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\EntityDatabase.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.deps.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.dev.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.dll
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csprojAssemblyReference.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfoInputs.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfo.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.input.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.output.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorCoreGenerate.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\MainView\Index.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CopyComplete
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.genruntimeconfig.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\AddRide.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\Index.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchRides.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\appsettings.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CoreCompileInputs.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\LogoutView\Default.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\bin\Debug\netcoreapp2.1\TravelDatabase.pdb
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\appsettings.json
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.deps.json
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.json
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.runtimeconfig.dev.json
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.dll
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\bin\Debug\netcoreapp2.1\TravelDatabase.pdb
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csprojAssemblyReference.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfoInputs.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.AssemblyInfo.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CoreCompileInputs.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorAssemblyInfo.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.input.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.TagHelpers.output.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorCoreGenerate.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\MainView\Index.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\AddRide.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Offers\Index.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\LogoutView\Default.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_SearchRides.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cache
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.RazorTargetAssemblyInfo.cs
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.Views.pdb
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.csproj.CopyComplete
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.dll
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.pdb
+F:\SkillBox\Portfolio\Drive74\Travel\Travel\obj\Debug\netcoreapp2.1\Travel.genruntimeconfig.cache

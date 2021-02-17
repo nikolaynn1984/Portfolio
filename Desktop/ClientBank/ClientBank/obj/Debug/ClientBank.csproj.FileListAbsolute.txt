@@ -1,0 +1,375 @@
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Модуль 14 - Делегаты\DZ\ClientBank\ClientBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\Database.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\Database.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\ClientBank\bin\Debug\Database.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.baml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.g.cs
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe.manifest
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.application
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.exe
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ClientBank.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\AccountData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\App.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank_MarkupCompile.lref
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\App.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\AccountControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\CreditControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\DepositControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\MyControl\PersonalControl.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddAccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddCreditView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\AddDepositView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\CustomersView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\HistoryView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\MessageView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\RepaymentView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\ReplenishView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\View\TransferAccountView.baml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.g.resources
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.Properties.Resources.resources
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.GenerateResource.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe.manifest
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.application
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.exe
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\ClientBank.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ExportData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\ExportData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\itextsharp.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\bin\Debug\itextsharp.xml

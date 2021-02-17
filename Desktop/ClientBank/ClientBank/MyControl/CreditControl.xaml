@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="ClientBank.MyControl.CreditControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mycom="clr-namespace:ClientBank.Commands"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClientBank.MyControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <DataGrid IsReadOnly="True"  x:Name="listCredits" 
+                          ItemsSource="{Binding Path=AccountsList}" RowDetailsVisibilityMode="VisibleWhenSelected"
+                          RowStyle="{StaticResource DataGridRow}"
+                          Style="{StaticResource Datagrid}"
+                          CellStyle="{StaticResource DataGrid_Centering}"
+                          Background="WhiteSmoke" AutoGenerateColumns="False"  IsSynchronizedWithCurrentItem="True">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}"  Header="Состояние" MinWidth="75"
+                                        Binding="{Binding StateName}" />
+                <DataGridTextColumn  HeaderStyle="{StaticResource DataGridHeader}" Header="Клиент" MinWidth="75" SortMemberPath="Name" 
+                                        Binding="{Binding Path=ClientName}"/>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Номер счет" MinWidth="75"
+                                        Binding="{Binding Path=AccountNumber, StringFormat={}{0:0000-0000-0000-0000}}"/>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Остаток" MinWidth="75"
+                                            Binding="{Binding Path=Cash, StringFormat={}{0:0.00}}"/>
+                <DataGridTextColumn Header="К погашению" MinWidth="75"  Binding="{Binding Path=RepayALoan, StringFormat={}{0:0.00}}" 
+                                    HeaderStyle="{StaticResource DataGridHeader}"/>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Ставка" MinWidth="75"
+                                            Binding="{Binding StringFormat=Ставка {0} %,  Path=Rate}"/>
+                <DataGridTextColumn Header="Ежемесячный платеж" MinWidth="75"  Binding="{Binding Path=MonthlyPayment, StringFormat={}{0:0.00}}" 
+                                    HeaderStyle="{StaticResource DataGridHeader}"/>
+                <DataGridTextColumn Header="Месяцев" MinWidth="75"  Binding="{Binding Path=MonthsPeriod}" 
+                                    HeaderStyle="{StaticResource DataGridHeader}"/>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Дата открытия" MinWidth="75"
+                                        Binding="{Binding Path=OpenDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Следующая дата платежа" MinWidth="75"
+                                        Binding="{Binding Path=NextDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+
+            </DataGrid.Columns>
+
+            <DataGrid.ContextMenu>
+                <ContextMenu >
+                    <MenuItem Header="Перевести средства" Visibility="{Binding TransferButtonVisible}" Command="mycom:AccountCommands.TramsferMoneyCommand"
+                                      CommandParameter="{Binding PlacementTarget.SelectedItem,  RelativeSource={RelativeSource AncestorType={x:Type ContextMenu}}}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/ic_transfer.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Внести средства" Visibility="{Binding MonthlyButtonVisible}" Command="mycom:AccountCommands.RepaymentCommandButton" 
+                                      CommandParameter="{Binding PlacementTarget.SelectedItem, RelativeSource={RelativeSource AncestorType={x:Type ContextMenu}}}">
+                        <MenuItem.Icon>
+                            <Image Source="/Images/ic_transfer.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+    </Grid>
+</UserControl>

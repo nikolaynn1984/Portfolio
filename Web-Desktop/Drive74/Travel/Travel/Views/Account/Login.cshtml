@@ -1,0 +1,31 @@
+﻿@model TravelDatabase.Model.LoginViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Аутентификация";
+}
+<section class="center-content section">
+    <div class="log-container">
+        <h2 class="log-head">АВТОРИЗАЦИЯ</h2>
+        <form asp-action="Login" class="log-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-column">
+                <label asp-for="Email" class="log-label">E-mail</label>
+                <input asp-for="Email" name="Email" required class="input">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-column">
+                <label asp-for="Password" class="log-label">Пароль</label>
+                <input type="password" asp-for="Password" name="Password" required class="input">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn button-blue log-btn">Войти</button>
+        </form>
+        <div class="form-column">
+            <a href="/Account/Register" class="login-link">Регистрация</a>
+            <a href="#" class="login-link">Забыли пароль</a>
+        </div>
+    </div>
+</section>
+
+

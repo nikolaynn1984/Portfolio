@@ -1,0 +1,80 @@
+﻿<Window x:Class="ClientBank.View.TransferAccountView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientBank.View"
+        xmlns:valid="clr-namespace:AccountData.Validation;assembly=AccountData"
+        mc:Ignorable="d"
+        x:Name="transWindow"
+        Title="Перевод средств" Height="450" Width="500" MinHeight="450" MinWidth="500" Icon="/Images/ic_transfer.png">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="15" x:Name="gridTransfer">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Клиент:" Style="{StaticResource TextBlockTransfer}"/>
+        <TextBlock Grid.Column="1" Text="{Binding Path=GetAccounts.ClientName}" HorizontalAlignment="Left" Style="{StaticResource TextBlock}"/>
+    
+        <TextBlock  Grid.Row="1" Text="Остаток:" Style="{StaticResource TextBlockTransfer}"/>
+        <TextBlock  Grid.Row="1" Grid.Column="1" Text="{Binding Path=AccountMoney}"  Style="{StaticResource TextBlock}" HorizontalAlignment="Left"/>
+        <TextBlock  Grid.Row="2" Text="Счет списания:" Style="{StaticResource TextBlockTransfer}"/>
+        <TextBlock  Grid.Row="2" Grid.Column="1" Text="{Binding Path=GetAccounts.AccountNumber, StringFormat={}{0:0000-0000-0000-0000}}" HorizontalAlignment="Left" Style="{StaticResource TextBlock}"/>
+        <TextBlock  Grid.Row="3" Text="Счет получателя:" Style="{StaticResource TextBlockTransfer}"/>
+        <ComboBox x:Name="selectedAccountTo" Style="{StaticResource ComboBox}" ItemsSource="{Binding Path=GetListAccounts}" 
+                   Grid.Row="3" Grid.Column="1" SelectedValuePath="Id"  SnapsToDevicePixels="True"
+                  SelectedValue="{Binding Path=SelectedAccount, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, NotifyOnValidationError=True}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="{Binding ClientName}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding ClientSurname}"/>
+                        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding AccountNumber, StringFormat={}{0:0000-0000-0000-0000}}"/>
+                    </Grid>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBlock  Grid.Row="4" Text="Сумма перевода:" Style="{StaticResource TextBlockTransfer}"/>
+        <TextBox x:Name="txtCashTransfer" Grid.Row="4" Grid.Column="1" Style="{StaticResource TextBox}" >
+            <TextBox.Text>
+                <Binding Path="Money" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <valid:MoneyRule Min="1"/>
+                        <ExceptionValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBlock Grid.Row=" 5" Grid.ColumnSpan="2" Text="{Binding MessageText}" Foreground="Red" Style="{StaticResource TextBlockDetail}"/>
+        <Button Content="Отмена" Grid.Row="6" VerticalAlignment="Bottom" Template="{StaticResource ButtonTemplate}" Padding="10" FontSize="18" Command="{Binding Exit}" CommandParameter="{Binding ElementName=transWindow}"/>
+        <Button Content="Перевести" Grid.Column="1" VerticalAlignment="Bottom" Grid.Row="6" IsEnabled="{Binding ElementName=txtCashTransfer, Path=(Validation.Errors)[0].RuleInError.ValidatesOnTargetUpdated}" Template="{StaticResource ButtonTemplate}" Padding="10" FontSize="18" Command="{Binding TransferMoney}" CommandParameter="{Binding ElementName=transWindow}"/>
+           
+
+    </Grid>
+</Window>

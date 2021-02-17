@@ -1,0 +1,127 @@
+﻿@model TravelDatabase.Model.Ride
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Новая поездка";
+}
+<section class="section-trips section">
+    <div class="container">
+        <h2 class="section-head">Новая поездка</h2>
+        <form asp-action="AddRide" class="new-trips">
+            <div class="form-row">
+                <label asp-for="FromCityId" class="form-label">Откуда:</label>
+                <select asp-for="FromCityId" required asp-items="@(new SelectList(ViewBag.CitiList, "Id", "City"))" class="form-input input">
+                    <option>Выберите город</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label asp-for="ToCityId" class="form-label">Куда:</label>
+                <select asp-for="ToCityId" required asp-items="@(new SelectList(ViewBag.CitiList, "Id", "City"))" class="form-input input">
+                    <option>Выберите город</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label asp-for="RideDate" class="form-label">Дата отправки:</label>
+                <input type="date" asp-for="RideDate" class="form-input input">
+            </div>
+            <div class="form-row">
+                <label asp-for="FreePlace" class="form-label">Свободных мест:</label>
+                <input type="number" asp-for="FreePlace" required class="form-input input">
+            </div>
+            <div class="form-row">
+                <label asp-for="CarId" class="form-label">Автомобиль:</label>
+                <select asp-for="CarId" required asp-items="@(new SelectList(ViewBag.CarList, "Id", "PlaceNumber"))" class="form-input input">
+                    <option>Выберите автомобиль</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label asp-for="Price" class="form-label">Цена за место:</label>
+                <input type="number" asp-for="Price" required class="form-input input">
+            </div>
+            <button type="submit" class="btn button-blue">Добавить</button>
+
+        </form>
+    </div>
+</section>
+@*<div class="fixed-container">
+    <h4>Новая поездка</h4>
+    <hr />
+    <div>
+        <form asp-action="AddRide" class="form-container">
+            <div asp-validation-summary="None" id="errors" class="text-danger"></div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="FromCityId">Откуда:</label>
+                </div>
+                <div class="form-input">
+                    <select asp-for="FromCityId" asp-items="@(new SelectList(ViewBag.CitiList, "Id", "City"))">
+                        <option>Выберите город</option>
+                    </select>
+                    <span asp-validation-for="FromCityId" asp-vali class="text-danger ">Требуется выбрать город</span>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="ToCityId">Куда:</label>
+                </div>
+
+                <div class="form-input">
+                    <select asp-for="ToCityId" asp-items="@(new SelectList(ViewBag.CitiList, "Id", "City"))">
+                        <option>Выберите город</option>
+                    </select>
+                    <span asp-validation-for="ToCityId" class="text-danger">Требуется выбрать город</span>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="RideDate">Дата отправки:</label>
+                </div>
+
+                <div class="form-input">
+                    <input asp-for="RideDate" />
+                    <span asp-validation-for="RideDate" class="text-danger">Не верный формат даты</span>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="FreePlace">Свободных мест:</label>
+                </div>
+
+                <div class="form-input">
+                    <input asp-for="FreePlace" />
+                    <span asp-validation-for="FreePlace" class="text-danger">Не указано количество пассажирских мест</span>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="CarId">Автомобиль:</label>
+                </div>
+
+                <div class="form-input">
+                    <select asp-for="CarId" asp-items="@(new SelectList(ViewBag.CarList, "Id", "PlaceNumber"))">
+                        <option>Выберите автомобиль</option>
+                    </select>
+                    <span asp-validation-for="CarId" class="text-danger">Требуется выбрать автомобиль</span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="label-form">
+                    <label asp-for="Price">Цена поездки:</label>
+                </div>
+
+                <div class="form-input">
+                    <input asp-for="Price" />
+                    <span asp-validation-for="Price" class="text-danger">Не указана цена поездки с пассажира</span>
+                </div>
+            </div>
+            <div class="form-row">
+                <button class="button button-blue">Добавить</button>
+            </div>
+        </form>
+    </div>
+</div>*@
+
+

@@ -1,0 +1,57 @@
+/* Benefist */
+
+.section-benefits{
+  margin-top: 45px;
+}
+.benefits-list{
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.benefits-item{
+  padding: 35px 40px;
+  margin-bottom: 25px;
+  max-width: 275px;
+
+  background-color: var(--color-white);
+  border-radius: 12px;
+  line-height: 32px;
+
+  background-repeat: no-repeat;
+  background-position: 40px 40px;
+  background-size: 64px;
+}
+/* .benefits-item:not(:nth-child(4n)){
+margin-right: 22px;
+} */
+.benefits-description{
+  margin-top: 80px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--color-font3);
+}
+
+.icons-bathtub{
+  background-image: url("../img/icon/bathtub.svg");
+}
+.icons-hander{
+  background-image: url("../img/icon/hanger.svg");
+}
+.icons-heating{
+  background-image: url("../img/icon/heating.svg");
+}
+.icons-hotelkey{
+  background-image: url("../img/icon/hotel-key.svg");
+}
+.icons-parcking{
+  background-image: url("../img/icon/parking.svg");
+}
+.icons-reception{
+  background-image: url("../img/icon/reception.svg");
+}
+.icons-security{
+  background-image: url("../img/icon/security-box.svg");
+}
+.icons-swimming{
+  background-image: url("../img/icon/swimming-pool.svg");
+}

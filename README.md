@@ -1,2 +1,50 @@
 # Portfolio
-MyPortfolio
+Niko Portfolio
+
+# TelegramBot
+
+1. Для запуска приложения требуется создать свой чат бот по инструкции https://core.telegram.org/bots#6-botfather
+2. Открыть проект `MessageBotTelegram` в папке `ViewModel` открыть файл `BotWindowViewModel.cs` 
+   в строке кода вставить полученный при создании бота - токен
+     
+```C#
+       static string token = "ваш токен";//Токен Бота
+```
+
+
+# Drive74
+1.Требуется открыть приложение в папке `Travel` 
+2. Строка подключения в проекте `TravelDatabase` в классе `DataContext`
+3. После изменения строки подключения требуется прописать в консоле команду `Update-Database -Project TravelDatabase`
+
+
+Работа с API
+
+1. Требуется открыть проект в папке `WpfTravelApp`
+2. Запустить проект в папке `WebAPI`
+2. В классе `MainWindow.xaml.cs` есть `static string local = "https://localhost:44317/";` вместо существуещего local требуется прописать результат полученный в строке подключения запущенного проекта WebAPI
+4. Запустить приложения WPF
+
+
+# ClientBank
+Client bank desktop application
+
+Для работы с приложением ClientBank требуется выполнить следующее!
+
+1. Требуется создать базу данных `Microsoft SQL Server`
+2. Открыть решении ClientBank и перейти в проект с названием StoreDatabase 
+3. В проекте находится файл `.sql` с названием `SQLCreateDatandTables.sql`, 
+   файл содержит в себе информацию о таблицах и данных к ним которые требуется 
+   создать в созданой базе  `Microsoft SQL Server`.
+4. Так же в проекте находится `class` `ConnectionClient.cs`, в нем нужно отредактировать 
+    строку подключения соответствующе созданной вами базы данных
+    ```C#
+    private static SqlConnectionStringBuilder sqlCon = new SqlConnectionStringBuilder()
+        {
+            DataSource = @"(LocalDB)\MSSQLLocalDB",  //Ваши данные
+            InitialCatalog = "ClientDatabase",     //Ваши данные
+            IntegratedSecurity = true,
+            Pooling = false
+        };
+    ```
+5. Запускайте приложение!

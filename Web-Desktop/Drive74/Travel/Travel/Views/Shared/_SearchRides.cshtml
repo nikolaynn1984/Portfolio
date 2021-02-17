@@ -1,0 +1,16 @@
+﻿@{ 
+    TravelDatabase.Repository repository = new TravelDatabase.Repository();
+    var list = repository.GetCityes();
+
+}
+<form id="searchForm" onsubmit="return false" class="search-form">
+    <select asp-items="@(new SelectList(list, "Id", "City"))" name="from" id="fromSch" class="select-view input search-item">
+        <option value="0">Откуда</option>>
+    </select>
+    <select asp-items="@(new SelectList(list, "Id", "City"))" name="to" id="toSch" class="select-view input search-item">
+        <option value="0">Куда</option>
+    </select>
+    <input type="date" placeholder="Дата поездки" name="date" class="date-input input search-item" />
+    <button onclick="searchRide()" id="searchBtn" class="btn button-yellow search-btn search-item">Найти</button>
+    @*<span id="error-popur" class="error-popur"></span>*@
+</form>

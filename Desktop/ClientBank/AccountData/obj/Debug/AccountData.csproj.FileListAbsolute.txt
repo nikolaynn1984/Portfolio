@@ -1,0 +1,89 @@
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\Database.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\Database.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\AccountData\bin\Debug\Database.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\obj\Debug\AccountData.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\obj\Debug\AccountData.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\obj\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\AccountData\obj\Debug\AccountData.pdb

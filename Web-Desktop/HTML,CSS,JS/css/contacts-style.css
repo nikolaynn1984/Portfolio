@@ -1,0 +1,57 @@
+/* Контакты */
+.contacts-container{
+  margin-top: 70px;
+  align-items: center;
+  }
+
+  .write-form{
+  margin: auto;
+  display: flex;
+
+  flex-direction: column;
+  max-width: 340px;
+  }
+  .form-heading{
+  text-align: center;
+  }
+  .write-textarea{
+  resize: none;
+  }
+  .btn-contacts{
+  padding: 28px;
+  }
+  .contacts-table{
+  margin-bottom: 44px;
+  }
+  .contacts-block{
+  padding: 25px 44px 44px 44px;
+  background-color:var(--color-white);
+  border-radius: 12px;
+  }
+  .contacts-item{
+  padding: 25px 0;
+  display: flex;
+
+  border-bottom: 1px solid var(--color-font9);
+  }
+  .write-block{
+    align-self: center;
+  }
+  .contacts-item-name{
+  flex: 35%;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 600;
+  color: var(--color-font6);
+  }
+  .contacts-item-description{
+  flex: 65%;
+  text-align: left;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-font3);
+  }
+  .email-info{
+  color: var(--color-font9);
+  }

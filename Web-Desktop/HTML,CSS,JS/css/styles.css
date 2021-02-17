@@ -1,0 +1,114 @@
+
+
+:root{
+  --color-orange:#cc9933;
+  --color-orange-light:#ffcc66;
+  --color-star:#e9ce93;
+  --color-white:#fff;
+  --color-grey-light:#f1f1f1;
+  --color-font3:#333333;
+  --color-font6:#666666;
+  --color-font9:#999999;
+  --color-grey-placeholder:rgb(112, 112, 112);
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    outline: none;
+	box-sizing: border-box;
+}
+.icon-all{
+    display: none;
+}
+button, input {
+  font: inherit; /*Задает значение шрифта и текста - наследует значение родителя*/
+}
+
+img {  /*Задает максимальный размер изображениям и автоматическую высоту*/
+  max-width: 100%;
+  height: auto;
+}
+ul{
+    list-style: none; /*Отменяет маркировки в списке */
+}
+a{
+    text-decoration: none; /*Отменяет стили в ссылках*/
+    color: black;
+}
+body {
+    font-family: 'Muller', sans-serif;
+    background-color: var(--color-grey-light);
+}
+.visually-hidden{
+  position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+.btn-form{
+    padding: 26px 30px;
+
+
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+
+    transition: transform  0.5s ease;
+}
+.btn-form:hover{
+   transform: scale(0.95);
+}
+.icon-right{
+  height: 19px;
+  width: 15px;
+  color: var(--color-orange-light);
+}
+
+.container{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section-heading, .form-heading{
+    margin-bottom: 20px;
+
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-font3);
+}
+.section-heading{
+    margin-left: 45px;
+}
+.input{
+    padding: 26px 27px;
+    margin-bottom: 24px;
+
+    border: none;
+    border-radius: 12px;
+}
+.input::placeholder{
+  color: var(--color-grey);
+}
+.text-orange{
+    color: var(--color-orange);
+
+}
+.icon-right{
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2px;
+  fill-rule: evenodd;
+}
+
+
+
+

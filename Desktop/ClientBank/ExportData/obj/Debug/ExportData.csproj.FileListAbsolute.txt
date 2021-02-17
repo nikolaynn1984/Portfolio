@@ -1,0 +1,17 @@
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\ExportData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\ExportData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\AccountData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\CustomersData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\AccountData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\AccountData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\CustomersData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\CustomersData.dll.config
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\obj\Debug\ExportData.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\obj\Debug\ExportData.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\obj\Debug\ExportData.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\obj\Debug\ExportData.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\obj\Debug\ExportData.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\itextsharp.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ExportData\bin\Debug\itextsharp.xml

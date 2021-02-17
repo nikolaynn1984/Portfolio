@@ -1,0 +1,23 @@
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.dll
+F:\SkillBox\Модуль 18 - Entity Framework\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 17 - ADO\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\bin\Debug\StoreDatabase.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\StoreDatabase\obj\Debug\StoreDatabase.pdb

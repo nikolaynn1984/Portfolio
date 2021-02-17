@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - Поехали</title>
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/icons.css" />
+    <script src="~/js/scripts.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-block">
+                <a href="/" class="header-logo">
+                    <img src="~/img/Logo.png" alt="Логотип поехали по городам" class="logo-image">
+                    <p class="header-name">Поехали 74</p>
+                </a>
+                <div class="menu-button" onclick="MenuButton(this)">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="/Offers/Index" class="nav-link">
+                                <span class="nav-img icon-search"></span>
+                                <p class="nav-name">Найти поездку</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Offers/AddRide" class="nav-link ">
+                                <span class="nav-img icon-add"></span>
+                                <p class="nav-name">Предложить поездку</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-log">
+                    @await Component.InvokeAsync("LogoutView")
+                </div>
+            </div>
+        </div>
+    </header>
+
+    @*@await Component.InvokeAsync("LogoutView")*@
+    <main class="main">
+        @RenderBody()
+    </main>
+    <footer class="footer">
+        <div class="top-footer">
+            <div class="container">
+                <nav class="footer-nav">
+                    <ul class="fotter-nav-list">
+                        <li class="footer-nav-item">
+                            <a href="" class="footre-nav-link">Главная</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="../Views/Offers/Index.cshtml" class="footre-nav-link">Найти поездку</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="../Views/Offers/AddRide.cshtml" class="footre-nav-link">Создать поездку</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="" class="footre-nav-link">Топ поездок</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="" class="footre-nav-link">О сервисе</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="" class="footre-nav-link">Безопасность</a>
+                        </li>
+                        <li class="footer-nav-item">
+                            <a href="" class="footre-nav-link">Обратная связь</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container bottom-block">
+                <p class="copyright">&copy; 2020 - Поехали 74</p>
+                <ul class="social-list">
+                    <lu class="social-item">
+                        <a href="#" class="social-link icon-instagram"></a>
+                    </lu>
+                    <lu class="social-item">
+                        <a href="#" class="social-link icon-social"></a>
+                    </lu>
+                    <lu class="social-item">
+                        <a href="#" class="social-link icon-telegram-brands"></a>
+                    </lu>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

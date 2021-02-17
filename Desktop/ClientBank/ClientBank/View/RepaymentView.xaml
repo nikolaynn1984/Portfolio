@@ -1,0 +1,145 @@
+﻿<Window x:Class="ClientBank.View.RepaymentView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientBank.View"
+        xmlns:rul="clr-namespace:AccountData.Validation;assembly=AccountData"
+        mc:Ignorable="d"
+        x:Name="repayWindow"
+        Title="Погашение кредита" Height="460" MinHeight="460" MinWidth="900" Width="900" Icon="/Images/ic_add.png" Background="WhiteSmoke">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="350"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Margin="5,2" Background="White" CornerRadius="5" Grid.Row="0" Grid.ColumnSpan="2">
+                <Grid >
+                    <TextBlock Text="{Binding GetAccounts.ClientName}"  Style="{StaticResource TextBlockDetail}"/>
+                </Grid>
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0"></DropShadowEffect>
+                </Border.Effect>
+            </Border>
+            <Border Margin="5,2" Background="White" CornerRadius="5" Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="55*"/>
+                        <ColumnDefinition Width="45*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Остаток" Grid.Row="0" Style="{StaticResource TextBlock}"/>
+                    <TextBlock Text="Сумма кредита" Grid.Row="1" Style="{StaticResource TextBlock}"/>
+                    <TextBlock Text="Ставка" Grid.Row="2" Style="{StaticResource TextBlock}"/>
+
+
+                    <TextBlock Text="{Binding CreditsItem.Cash, StringFormat={}{0:0.00}}" Grid.Column="1" Grid.Row="0" Style="{StaticResource TextBlockDetail}"/>
+                    <TextBlock Text="{Binding CreditsItem.AmountIssue, StringFormat={}{0:0.00}}" Grid.Column="1" Grid.Row="1" Style="{StaticResource TextBlockDetail}"/>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
+                        <TextBlock Text="{Binding CreditsItem.Rate}"  Style="{StaticResource TextBlockDetail}"/>
+                        <TextBlock Text="%" Style="{StaticResource TextBlock}"/>
+                    </StackPanel>
+
+                </Grid>
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0"></DropShadowEffect>
+                </Border.Effect>
+            </Border>
+            <Border Margin="5,2" Grid.Row="2" Background="White" CornerRadius="5" Grid.ColumnSpan="2">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="55*"/>
+                        <ColumnDefinition Width="45*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Осталось погасить" Grid.Row="0" Style="{StaticResource TextBlock}"/>
+                    <TextBlock Text="Ежемесячный платеж" Grid.Row="1" Style="{StaticResource TextBlock}"/>
+                    <TextBlock Text="Выдано" Grid.Row="2" Style="{StaticResource TextBlock}"/>
+                    <TextBlock Text="До" Grid.Row="3" Style="{StaticResource TextBlock}"/>
+
+                    <TextBlock Text="{Binding CreditsItem.RepayALoan, StringFormat={}{0:0.00}}" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBlockDetail}"/>
+                    <TextBlock Text="{Binding CreditsItem.MonthlyPayment, StringFormat={}{0:0.00}}" Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBlockDetail}"/>
+                    <TextBlock Text="{Binding CreditsItem.OpenDate, StringFormat={}{0:dd/MM/yyyy}}" Grid.Row="2" Grid.Column="1" Style="{StaticResource TextBlockDetail}"/>
+                    <TextBlock Text="{Binding Path=DateClose, StringFormat={}{0:dd/MM/yyyy}}" Grid.Row="3" Grid.Column="1" Style="{StaticResource TextBlockDetail}"/>
+                </Grid>
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="0"></DropShadowEffect>
+                </Border.Effect>
+            </Border>
+            <Grid Grid.Row="3" Grid.ColumnSpan="2" Margin="5,10,5,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55*"/>
+                    <ColumnDefinition Width="45*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Погасить полностью" Grid.Row="0"  Grid.Column="0" Style="{StaticResource TextBlock}"/>
+                <StackPanel Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch">
+                    <CheckBox   Height="25"  Style="{StaticResource AnimatedSwitch}" IsChecked="{Binding Path=FullRepay}"/>
+                </StackPanel>
+                <TextBox x:Name="txtCash"  Grid.Row="1" Grid.ColumnSpan="2" Background="White" HorizontalAlignment="Stretch" Height="30" Style="{StaticResource TextBox}">
+                    <TextBox.Text>
+                        <Binding Path="Money" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged" StringFormat="{}{0:0.00}">
+                            <Binding.ValidationRules>
+                                <rul:MoneyRule Min="1"/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+            </Grid>
+            <Button Content="Отмена" Grid.Row="4" VerticalAlignment="Bottom" Template="{StaticResource ButtonTemplate}" Padding="5" FontSize="18" Command="{Binding ExitCommand}" CommandParameter="{Binding ElementName=repayWindow}"/>
+            <Button Content="Перевести" Grid.Column="1" VerticalAlignment="Bottom" Grid.Row="4" IsEnabled="{Binding ElementName=txtCash, Path=(Validation.Errors)[0].RuleInError.ValidatesOnTargetUpdated}" Template="{StaticResource ButtonTemplate}" Padding="5" FontSize="18" Command="{Binding RepaymentMoneyCommand}" CommandParameter="{Binding ElementName=repayWindow}"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border Margin="5,2" Background="White"  Grid.Row="0">
+                <Grid >
+
+                    <TextBlock Text="График платежей"  Style="{StaticResource TextBlockDetail}"/>
+                </Grid>
+            </Border>
+            <DataGrid IsReadOnly="True"  x:Name="listRepayment" Grid.Row="1" Margin="2" BorderThickness="0"
+                          ItemsSource="{Binding GetRepayments}" 
+                          RowStyle="{StaticResource DataGridRow}" AlternatingRowBackground="White"
+                          Style="{StaticResource Datagrid}"
+                          Background="WhiteSmoke" AutoGenerateColumns="False"  IsSynchronizedWithCurrentItem="True">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn HeaderStyle="{StaticResource DataGridHeader}"  Header="Состояние" MinWidth="75" 
+                                        Binding="{Binding Performed}"   ElementStyle="{StaticResource CheckBoxStyle1}" />
+                    <DataGridTextColumn Header="Дата платежа" MinWidth="75"  Binding="{Binding PlanningDate, StringFormat={}{0:dd/MM/yyyy}}" HeaderStyle="{StaticResource DataGridHeader}"/>
+                    <DataGridTextColumn  HeaderStyle="{StaticResource DataGridHeader}" Header="Дата погашения" MinWidth="75" SortMemberPath="Name" 
+                                        Binding="{Binding RepaymentDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+                    <DataGridTextColumn HeaderStyle="{StaticResource DataGridHeader}" Header="Сумма платежа" MinWidth="75"
+                                        Binding="{Binding Amount, StringFormat={}{0:f}}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>

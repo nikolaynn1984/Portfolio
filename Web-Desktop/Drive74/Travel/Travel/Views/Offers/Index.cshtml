@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TravelDatabase.Model.Ride>
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Поездки";
+}
+<section class="section-trips section">
+    <div class="container">
+        <h2 class="section-head">Поездки</h2>
+        @await Html.PartialAsync(@"_SearchRides", null)
+    </div>
+</section>
+<section class="section-trips">
+    <div class="container">
+        <ul class="trips-list">
+            @foreach (var item in Model)
+            {
+                <li class="trips-item">
+                    <div class="trips-info">
+                        <div class="trip-cities">
+                            <p class="city-from trip-text-format">@item.FromCityes.City</p>
+                            <p class="city-to trip-text-format">@item.ToCityes.City</p>
+                        </div>
+                        <div class="trips-datetime">
+                            <date class="info-date trip-text-format">@item.RideDate.ToShortDateString()</date>
+                            <time class="info-time trip-text-format">12:00</time>
+                        </div>
+                    </div>
+                    <div class="trips-driver">
+                        <a href="#" class="driver-info trip-text-format">
+                            <img src="/img/images.png" alt="Изображение пользователя" class="drive-img">
+                            Николай
+                        </a>
+                        <p class="car-drive trip-text-format">Peugeot <span class="car-model">308</span></p>
+                        <div class="travel-condotions">
+                            <span class="baby-chair"></span>
+                            <span class="animals-in-car condotions-active"></span>
+                            <span class="smoke-in-car"></span>
+                            <span class="place-baggage"></span>
+                        </div>
+                    </div>
+                    <div class="trips-price">
+                        <div class="places-info">
+                            <p class="trip-price trip-text-format">@item.Price <span class="trip-price-info">за место</span></p>
+                            <p class="prip-places trip-text-format">Свободно @item.FreePlace из 4</p>
+                        </div>
+
+                    </div>
+                    <a href="#" class="trip-details"><span class="detail-image icon-circle-right"></span></a>
+                </li>
+            }
+        </ul>
+    </div>
+</section>
+@*<article class="offert-section">
+    <div class="fixed-container">
+        <h1 class="center-head">Найти поездку</h1>
+        @await Html.PartialAsync(@"_SearchRides", null)
+
+        <table class="ride-table">
+            <thead>
+                <tr>
+                    <th>От куда </th>
+                    <th> Куда</th>
+                    <th>Дата поездки </th>
+                    <th> Свободно мест </th>
+                    <th> Автомобиль (Гос-номер)</th>
+                    <th> Цена</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.FromCityes.City </td>
+                        <td> @item.ToCityes.City </td>
+                        <td>@item.RideDate.ToShortDateString() </td>
+                        <td> @item.FreePlace</td>
+                        <td>@item.GetCar.PlaceNumber</td>
+                        <td> @item.Price</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</article>*@
+

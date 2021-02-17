@@ -1,0 +1,69 @@
+﻿<Window x:Class="WpfTravelApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTravelApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="listRides" ItemsSource="{Binding XPath=Rides}"
+                  IsSynchronizedWithCurrentItem="True"
+                  IsReadOnly="True"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns >
+                <DataGridTextColumn Header="ИД" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Откуда" Binding="{Binding FromCity}"/>
+                <DataGridTextColumn Header="Куда" Binding="{Binding ToCity}"/>
+                <DataGridTextColumn Header="Автомоюиль" Binding="{Binding CarPlace}"/>
+                <DataGridTextColumn Header="Свободных мест" Binding="{Binding FreePlace}"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Price}"/>
+                <DataGridTextColumn Header="Дата поездки" Binding="{Binding RideDate, StringFormat={}{0:dd/MM/yyyy}}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Откуда" Grid.Row="0" MinWidth="100" Margin="5"/>
+            <ComboBox Grid.Column="1" Grid.Row="0" MinWidth="150" x:Name="listFrom" Margin="5" DisplayMemberPath="City"
+                      SelectedValuePath="Id"/>
+            <TextBlock Text="Куда" Grid.Row="1" MinWidth="100" Margin="5"/>
+            <ComboBox Grid.Column="1" Grid.Row="1" MinWidth="150" x:Name="listTo" Margin="5" DisplayMemberPath="City"
+                      SelectedValuePath="Id"/>
+            <TextBlock Text="Автомобиль" Grid.Row="2" MinWidth="100" Margin="5"/>
+            <ComboBox Grid.Column="1" Grid.Row="2" MinWidth="150" x:Name="listCar" Margin="5" DisplayMemberPath="PlaceNumber"
+                      SelectedValuePath="Id"/>
+            <TextBlock Text="Свободных мест" Grid.Row="3" MinWidth="100" Margin="5"/>
+            <TextBox x:Name="txtFree" Margin="5" Grid.Row="3" Grid.Column="1" MinWidth="150"/>
+            <TextBlock Text="Цена" Grid.Row="4" MinWidth="100" Margin="5"/>
+            <TextBox x:Name="txtPrice" Margin="5" Grid.Row="4" Grid.Column="1" MinWidth="150"/>
+            <TextBlock Text="Дата поездки" Grid.Row="5" MinWidth="100" Margin="5"/>
+            <DatePicker Grid.Row="5" Grid.Column="1" x:Name="txtDate" DisplayDate="01.06.2020"/>
+            <ListView x:Name="listError" Grid.Row="6" Grid.ColumnSpan="2" BorderThickness="0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding }" FontSize="10" Foreground="Red"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Content="Обновить" Name="btnRefresh" Grid.Row="7" VerticalAlignment="Bottom" Padding="5" Margin="5" Click="Refrech_Click"/>
+            <Button Content="Добавить" Name="btnAdd" Grid.Row="7" Grid.Column="1" VerticalAlignment="Bottom" Margin="5" Padding="5" Click="Add_Click"/>
+        </Grid>
+    </Grid>
+</Window>

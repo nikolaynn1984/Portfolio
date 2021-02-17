@@ -1,0 +1,19 @@
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\bin\Debug\Database.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\obj\Debug\Database.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\obj\Debug\Database.csproj.CopyComplete
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\obj\Debug\Database.dll
+F:\SkillBox\Модуль 15 - Дополнительный материал\DZ\ClientBank\Database\obj\Debug\Database.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\bin\Debug\Database.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\bin\Debug\Database.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\bin\Debug\Newtonsoft.Json.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\bin\Debug\Newtonsoft.Json.xml
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\obj\Debug\Database.csprojAssemblyReference.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\obj\Debug\Database.csproj.CopyComplete
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\obj\Debug\Database.dll
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\obj\Debug\Database.pdb
+F:\SkillBox\Модуль 16 - Многопоточность\DZ\ClientBank\Database\bin\Debug\Database.dll.config

@@ -1,0 +1,321 @@
+﻿<Application x:Class="MessageBotTelegram.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MessageBotTelegram" xmlns:UI="clr-namespace:MessageBotTelegram.UI"
+             StartupUri="View/BotWindow.xaml">
+    <Application.Resources>
+        <UI:ImagePathConverter x:Key="ImagePathConverter"/>
+        <!--Сообщение от пользователя-->
+        <DataTemplate  x:Key="messageClien" >
+            <Grid Margin="0"  Background="Transparent" HorizontalAlignment="Left" >
+                <Border BorderThickness="1"  CornerRadius="0,7,7,7" Margin="5" BorderBrush="#FF79D0EE" 
+                                Background="#FFB3DFEE" >
+                    <Grid Margin="5"  >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Name}"/>
+                        <TextBlock Grid.Column="1" Text="{Binding CreateTime}"/>
+                        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding MessageText}"  FontSize="18" />
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <!--Сообщение от админа-->
+        <DataTemplate x:Key="messageAdmin" >
+            <Grid   Background="Transparent" HorizontalAlignment="Right">
+                <Border BorderThickness="1"  CornerRadius="7,0,7,7" Margin="5" BorderBrush="#FF4BDC9C" 
+                                Background="#FF88DAB6" >
+                    <Grid Margin="5" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding StringFormat=Кому, Path=Name}" />
+                        <TextBlock Grid.Column="1" Text="{Binding CreateTime}"/>
+                        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding MessageText}"  FontSize="18"  />
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <!--Фото от админа-->
+        <DataTemplate x:Key="imageAdmin" >
+            <Grid   Background="Transparent" HorizontalAlignment="Right">
+                <Border BorderThickness="2"  CornerRadius="7,0,7,7" Margin="5" BorderBrush="#FF4BDC9C" 
+                                Background="#FF88DAB6" >
+                    <Grid  >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+
+                            <Border MaxWidth="350" Grid.ColumnSpan="2" MaxHeight="350" VerticalAlignment="Center" CornerRadius="0,7,7,7"  BorderBrush="#FF4BDC9C" BorderThickness="2"  >
+                                <Image Stretch="Uniform"   
+                                   Source="{Binding Path=FileName, Converter={StaticResource ImagePathConverter}}">
+
+                                </Image>
+                            </Border>
+
+                            <Border VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="2" CornerRadius="3" Background="#E5252526">
+                                <TextBlock  Grid.Column="0" Text="{Binding StringFormat=Кому, Path=Name}"  Margin="2" Foreground="White" />
+                            </Border>
+                            <Border Background="#E5252526" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="2" CornerRadius="3">
+                                <TextBlock Grid.Column="1" Text="{Binding CreateTime}"  Margin="2" Foreground="White"/>
+                            </Border>
+                        </Grid>
+
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding MessageCaption}"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <!--Фото от пользователя-->
+        <DataTemplate x:Key="imageClient" >
+
+            <Grid   Background="Transparent" HorizontalAlignment="Left">
+                <Border BorderThickness="2"  CornerRadius="0,7,7,7" Margin="5" BorderBrush="#FF79D0EE" 
+                                Background="#FFB3DFEE" >
+                    <Grid  >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid>
+
+                            <Border MaxWidth="350" Grid.ColumnSpan="2" MaxHeight="350" CornerRadius="0,7,7,7" BorderBrush="#FF79D0EE" BorderThickness="2"  >
+                                <Image Stretch="Uniform"   
+                                   Source="{Binding Path=FileName, Converter={StaticResource ImagePathConverter}}">
+
+                                </Image>
+                            </Border>
+
+                            <Border VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="2" CornerRadius="3" Background="#E5252526">
+                                <TextBlock  Grid.Column="0" Text="{Binding StringFormat=Кому, Path=Name}"  Margin="2" Foreground="White" />
+                            </Border>
+                            <Border Background="#E5252526" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="2" CornerRadius="3">
+                                <TextBlock Grid.Column="1" Text="{Binding CreateTime}"  Margin="2" Foreground="White"/>
+                            </Border>
+                        </Grid>
+
+                        <TextBlock Grid.ColumnSpan="2" Grid.Row="1" Text="{Binding MessageCaption}"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <!--Аудио от админа-->
+        <DataTemplate x:Key="audioAdmin" >
+            <Grid   Background="Transparent" HorizontalAlignment="Right">
+                <Border BorderThickness="1"  CornerRadius="7,0,7,7" Margin="5" BorderBrush="#FF4BDC9C" 
+                                Background="#FF88DAB6" >
+                    <Grid Margin="5" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel  Grid.RowSpan="2" Name="AudioPlay" Margin="3" >
+
+                            <MediaElement UnloadedBehavior="Close"  LoadedBehavior="Manual" Name="my_media"></MediaElement>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Triggers>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="cmd_play">
+                                        <EventTrigger.Actions>
+                                            <BeginStoryboard Name="MediaStoryboard">
+                                                <Storyboard>
+                                                    <MediaTimeline Storyboard.TargetName="my_media"
+                                                       Source="{Binding FileName}"></MediaTimeline>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger.Actions>
+                                    </EventTrigger>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="cmd_stop">
+                                        <EventTrigger.Actions>
+                                            <StopStoryboard BeginStoryboardName="MediaStoryboard"></StopStoryboard>
+                                        </EventTrigger.Actions>
+                                    </EventTrigger>
+                                </StackPanel.Triggers>
+                                <Button Name="cmd_play"  Background="Transparent" BorderThickness="0">
+                                    <Image>
+                                        <Image.Source>
+                                            <BitmapImage UriSource="Images/ic_play_circle_filled_black_24dp.png"/>
+                                        </Image.Source>
+                                    </Image>
+                                </Button>
+
+                                <Button Name="cmd_stop" Background="Transparent" BorderThickness="0">
+                                    <Image>
+                                        <Image.Source>
+                                            <BitmapImage UriSource="Images/ic_pause_circle_outline_black_24dp.png"/>
+                                        </Image.Source>
+                                    </Image>
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                        <TextBlock  Grid.Column="2" Grid.Row="1" Text="{Binding  Name}" />
+                        <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding CreateTime}"/>
+                        <TextBlock Grid.ColumnSpan="3" Grid.Row="2" Text="{Binding MessageCaption}"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <!--Аудио от пользователя-->
+        <DataTemplate x:Key="audioClient" >
+            <Grid   Background="Transparent" HorizontalAlignment="Left">
+                <Border BorderThickness="1"  CornerRadius="0,7,7,7" Margin="5" BorderBrush="#FF79D0EE" 
+                                Background="#FFB3DFEE" >
+                    <Grid Margin="5" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel  Grid.RowSpan="2" Name="AudioPlay" Margin="3" >
+
+                            <MediaElement UnloadedBehavior="Close"  LoadedBehavior="Manual" Name="my_media"></MediaElement>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Triggers>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="cmd_play">
+                                        <EventTrigger.Actions>
+                                            <BeginStoryboard Name="MediaStoryboard">
+                                                <Storyboard>
+                                                    <MediaTimeline Storyboard.TargetName="my_media"
+                                                       Source="{Binding FileName}"></MediaTimeline>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </EventTrigger.Actions>
+                                    </EventTrigger>
+                                    <EventTrigger RoutedEvent="Button.Click" SourceName="cmd_stop">
+                                        <EventTrigger.Actions>
+                                            <StopStoryboard BeginStoryboardName="MediaStoryboard"></StopStoryboard>
+                                        </EventTrigger.Actions>
+                                    </EventTrigger>
+                                </StackPanel.Triggers>
+                                <Button Name="cmd_play"  Background="Transparent" BorderThickness="0">
+                                    <Image>
+                                        <Image.Source>
+                                            <BitmapImage UriSource="Images/ic_play_circle_filled_black_24dp.png"/>
+                                        </Image.Source>
+                                    </Image>
+                                </Button>
+
+                                <Button Name="cmd_stop" Background="Transparent" BorderThickness="0">
+                                    <Image>
+                                        <Image.Source>
+                                            <BitmapImage UriSource="Images/ic_pause_circle_outline_black_24dp.png"/>
+                                        </Image.Source>
+                                    </Image>
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                        <TextBlock  Grid.Column="2" Grid.Row="1" Text="{Binding  Name}" />
+                        <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding CreateTime}"/>
+                        <TextBlock Grid.ColumnSpan="3" Grid.Row="2" Text="{Binding MessageCaption}"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </DataTemplate>
+        <Style x:Key="MyButton" TargetType="Button">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Background" Value="#FF2F82C7"/>
+            <Setter Property="Opacity" Value="0.8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="5" Background="{TemplateBinding Background}" BorderThickness="0" Padding="5,0">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Margin="1"  />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter Property="Opacity" Value="0.3"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="1"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="TextBoxSearch" TargetType="TextBox">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="True">
+                            <Border BorderBrush="#FF44D44B" BorderThickness="0.6,0.6,0.6,3" CornerRadius="5" Padding="5,0">
+                                <AdornedElementPlaceholder Name="palceholder"/>
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="">
+                    <Setter Property="Background" >
+                        <Setter.Value>
+                            <VisualBrush Stretch="None">
+                                <VisualBrush.Visual>
+                                    <TextBlock Text="Написать сообщение" Foreground="Gray" TextAlignment="Left" />
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}" Value="{x:Null}">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <VisualBrush Stretch="None">
+                                <VisualBrush.Visual>
+                                    <TextBlock Text="Написать сообщение" Foreground="Gray" TextAlignment="Left" />
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsFocused}" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <VisualBrush Stretch="None">
+                            </VisualBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+            </Style.Triggers>
+           
+        </Style>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,8 @@
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\bin\Debug\netcoreapp3.1\TravelDatabase.deps.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\bin\Debug\netcoreapp3.1\TravelDatabase.dll
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\obj\Debug\netcoreapp3.1\TravelDatabase.csprojAssemblyReference.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\obj\Debug\netcoreapp3.1\TravelDatabase.AssemblyInfoInputs.cache
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\obj\Debug\netcoreapp3.1\TravelDatabase.AssemblyInfo.cs
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\bin\Debug\netcoreapp3.1\TravelDatabase.runtimeconfig.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\bin\Debug\netcoreapp3.1\TravelDatabase.runtimeconfig.dev.json
+F:\SkillBox\LearnigPro\DZ\travel\Travel\TravelDatabase\obj\Debug\netcoreapp3.1\TravelDatabase.genruntimeconfig.cache

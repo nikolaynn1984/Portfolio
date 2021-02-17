@@ -1,0 +1,20 @@
+﻿ClientBank
+
+
+winexe
+C#
+.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\obj\Debug\
+ClientBank
+none
+false
+DEBUG;TRACE
+F:\SkillBox\Обучение C# с нуля до ПРО\Модуль 19 - Паттерны\DZ\ClientBank\ClientBank\App.xaml
+14582306142
+
+341754223899
+18138569820
+MyControl\AccountControl.xaml;MyControl\CreditControl.xaml;MyControl\DepositControl.xaml;MyControl\PersonalControl.xaml;View\AccountView.xaml;View\AddAccountView.xaml;View\AddCreditView.xaml;View\AddDepositView.xaml;View\CustomersView.xaml;View\HistoryView.xaml;View\MessageView.xaml;View\RepaymentView.xaml;View\ReplenishView.xaml;View\TransferAccountView.xaml;
+
+False
+

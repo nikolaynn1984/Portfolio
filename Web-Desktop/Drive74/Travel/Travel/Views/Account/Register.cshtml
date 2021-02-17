@@ -1,0 +1,31 @@
+﻿@model TravelDatabase.Model.RegisterViewModel
+
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Регистрация";
+}
+<section class="center-content section">
+    <div class="log-container">
+        <h2 class="log-head">РЕГИСТРАЦИЯ</h2>
+        <form asp-action="Register" class="log-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-column">
+                <label asp-for="Email" class="log-label">E-mail</label>
+                <input type="email" asp-for="Email" required class="input">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-column">
+                <label asp-for="Password" class="log-label">Пароль</label>
+                <input type="password" asp-for="Password" required class="input">
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-column">
+                <label asp-for="ConfirmPassword" class="log-label">Повторить пароль</label>
+                <input type="password" asp-for="ConfirmPassword" required class="input">
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn button-blue log-btn">Зарегистрировать</button>
+        </form>
+    </div>
+</section>
+

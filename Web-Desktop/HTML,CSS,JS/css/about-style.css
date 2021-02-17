@@ -1,0 +1,12 @@
+/* About */
+.section-about{
+  margin-top: 70px;
+}
+.about-description{
+  margin-left: 45px;
+  max-width: 885px;
+
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--color-font6);
+}

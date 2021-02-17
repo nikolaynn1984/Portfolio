@@ -1,0 +1,72 @@
+/* Services */
+.section-services{
+  margin-top: 65px;
+}
+.services-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-services-item{
+  margin-top: auto;
+}
+.services-item{
+  padding: 35px;
+  min-height: 326px;
+  margin-bottom: 24px;
+  display: flex;
+  background-color: var(--color-white);
+  border-radius: 12px;
+
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+/* .services-item:not(:nth-child(2n)){
+margin-right: 24px;
+} */
+.services-item-head{
+  display: flex;
+  margin-bottom: 15px;
+
+  font-size: 22px;
+  font-weight: 600;
+}
+.services-icon-right{
+  stroke: var(--color-orange);
+}
+/* .services-item-head::after{
+content: "\e903";
+  font-family: 'iconiko';
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: var(--color-orange);
+  font-size: 20px;
+  padding-left: 10px;
+} */
+.services-item-head:hover, .services-item-head:hover::after{
+color: #e9ce93;
+}
+.services-item-head:hover .services-icon-right{
+  stroke: #e9ce93;
+  }
+.services-item-description{
+margin-right: 95px;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+color: var(--color-font3);
+}
+.image-services{
+  background-image: url("../img/blog/service.png");
+}
+.image-hall{
+  background-image: url("../img/blog/hall.png");
+}
+.image-saunas{
+  background-image: url("../img/blog/saunas.png");
+}
+.image-parking{
+  background-image: url("../img/blog/parking.png");
+}

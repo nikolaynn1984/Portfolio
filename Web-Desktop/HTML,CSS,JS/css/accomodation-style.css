@@ -1,0 +1,128 @@
+/* Accommodation */
+.section-accommodation{
+  margin-top: 45px;
+}
+
+
+.accoommodation-item{
+  overflow: hidden;
+  margin-bottom: 25px;
+
+
+  background-color: var(--color-white);
+  border-radius: 12px;
+}
+.accoommodation-end-item{
+position: relative;
+min-width: 374px;
+min-height: 442px;
+background-image: url("../img/place/41.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+.stars-accommodation{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.icon-star{
+  width: 14px;
+  height: 14px;
+
+  fill: var(--color-star);
+}
+.star-empty{
+
+  fill: var(--color-grey-light);
+}
+.icon-star:not(:last-child){
+ margin-right: 7px;
+}
+
+.icon-right-white{
+color: var(--color-white);
+}
+
+.btn-light{
+  padding: 12px 20px;
+  display: inline-block;
+
+  border: 1px solid var(--color-orange);
+  background-color: white;
+  border-radius: 12px;
+  color: var(--color-orange);
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:  all  0.5s ease;
+}
+.btn-light:hover{
+color: var(--color-white);
+background-color: var(--color-orange);
+transform: scale(0.95);
+}
+.accommodation-cost-rating{
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+}
+
+.accommodation-name{
+  margin: 15px 40px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-font3);
+}
+.accomodation-country{
+  margin: 15px 40px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-font9);
+}
+.btn-accommodation{
+  margin-left: 40px;
+  margin-bottom: 44px;
+}
+
+.end-item-link{
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 365px;
+  padding-left: 40px;
+  color: var(--color-white);
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1;
+}
+.end-item-link:hover, .end-link-icon:hover{
+    color: var(--color-orange-light);
+    stroke: var(--color-orange-light);
+}
+.end-item-link:hover .end-link-icon{
+  stroke: var(--color-orange-light);
+}
+.end-link-icon{
+  stroke: white;
+
+}
+.accommodation-image{
+  width: 100%;
+}
+.accommodation-money{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--color-font3);
+
+}
+

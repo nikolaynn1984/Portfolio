@@ -1,0 +1,684 @@
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''), url('../fonts/raleway-300.woff2') format('woff2'), url('../fonts/raleway-300.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('../fonts/raleway-regular.woff2') format('woff2'), url('../fonts/raleway-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('../fonts/raleway-500.woff2') format('woff2'), url('../fonts/raleway-500.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('../fonts/raleway-600.woff2') format('woff2'), url('../fonts/raleway-600.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('../fonts/raleway-700.woff2') format('woff2'), url('../fonts/raleway-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'iconiko';
+    src: url('../fonts/iconiko.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+:root {
+    --color-gray: #e8eaee;
+    --color-blue: #214d8a;
+    --color-blue-light: #72adff;
+    --color-disabled: #a0bde4;
+    --color-yellow: #eec60f;
+    --color-yellow-light: #e9deae;
+    --color-green: #23a523;
+    --color-green-light: #8fd48f;
+    --color-red: #ca1f36;
+    --color-shadow: #a0a5b1;
+    --color-height-gray: #333333;
+    --size-head: 35px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.menu-button {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-blue);
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--color-gray);
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section-head {
+    margin: 25px;
+    color: var(--color-height-gray);
+    font-size: var(--size-head);
+}
+
+.section {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+/* Button*/
+.btn {
+    padding: 10px 15px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: 0 0 10px var(--color-shadow);
+    border-radius: 5px;
+    border: none;
+}
+
+.button-blue {
+    background-color: var(--color-blue);
+}
+
+    .button-blue:hover {
+        box-shadow: 0 0 0 2px var(--color-blue) inset, 0 0 0 4px var(--color-gray) inset;
+        transition: 0.5s linear;
+    }
+
+    .button-blue:active {
+        box-shadow: none;
+    }
+
+.button-yellow {
+    background-color: var(--color-yellow);
+    color: black;
+}
+
+    .button-yellow:hover {
+        box-shadow: 0 0 0 2px var(--color-yellow) inset, 0 0 0 4px var(--color-gray) inset;
+        transition: 0.5s linear;
+    }
+
+    .button-yellow:disabled {
+        background-color: var(--color-yellow-light);
+        border: 1px solid var(--color-yellow-light);
+        box-shadow: none;
+    }
+
+    .button-yellow:active {
+        box-shadow: none;
+    }
+/* Button End*/
+/* Cards */
+.card-list {
+    display: flex;
+}
+
+.card-item {
+    flex: 1 1 33%;
+    min-height: 220px;
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+    .card-item:not(:nth-child(3n)) {
+        margin-right: 25px;
+    }
+
+.card-head {
+    padding: 20px;
+    font-size: 22px;
+    line-height: 1;
+    border-bottom: 1px solid rgb(114, 110, 110);
+}
+
+.card-descriptions {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Card end*/
+/* Search*/
+.search-form {
+    display: flex;
+}
+
+.search-item {
+    flex: 1 1 25%;
+    margin-right: 10px;
+}
+
+
+/* Header */
+.header {
+    background-color: var(--color-blue);
+    border-bottom: 3px solid var(--color-yellow);
+}
+
+.header-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 45px;
+}
+
+.header-name {
+    margin-left: 10px;
+}
+
+.nav-link, .header-name, .log-link, .sub-log-link {
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-link, .log-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+.user-subitem {
+    margin-left:10px;
+    margin-right:10px;
+}
+.user-subitem:not(:last-child){
+    margin-bottom:10px;
+}
+
+.user-log {
+    display: flex;
+    margin-left: auto;
+}
+
+.user-item {
+    position: relative;
+}
+
+    .user-item:hover .user-sublist {
+        visibility: visible;
+        opacity: 1;
+        transform: perspective(600px) rotateX(0deg);
+    }
+
+.user-sublist {
+    position: absolute;
+    margin-top: 22px;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    right: 0;
+    border-radius: 10px;
+    min-width: 150px;
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-yellow);
+    transform: perspective(600px) rotateX(-90deg);
+    opacity: 0;
+    transform-origin: 0% 0%;
+    transition: .3s ease-in-out;
+}
+
+.nav-img, .log-img {
+    font-size: 20px;
+    margin-right: 10px;
+    color: var(--color-yellow);
+}
+.out-user{
+    border-top:1px solid var(--color-yellow);
+}
+.nav-link:hover, .log-link:hover, .sub-log-link:hover {
+    color: var(--color-yellow);
+}
+
+
+/* Head */
+.section-info {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+    min-height: 400px;
+    background-image: url("/img/header/head_1200.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-info-block {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.head-info {
+    position: relative;
+    margin-top: 150px;
+    width: 70%;
+    font-size: 45px;
+    color: white;
+}
+/* Search section*/
+.section-search {
+    background-color: var(--color-blue);
+    padding-bottom: 40px;
+}
+
+.search-head {
+    color: white;
+}
+
+.search-btn {
+    box-shadow: none;
+}
+/* Section Work*/
+.drive-block {
+    display: none;
+}
+
+.work-tab-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+    .work-tab-list::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 1px;
+        background-color: var(--color-blue);
+        z-index: -1;
+    }
+
+.work-tab-list {
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+.work-tab-item {
+    background-color: var(--color-gray);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 15px;
+    margin: 15px;
+}
+
+    .work-tab-item:hover .work-tab-link {
+        border-bottom: 3px solid var(--color-blue);
+        transition: 0.2s all;
+    }
+
+    .work-tab-item.active .work-tab-link {
+        border-bottom: 3px solid var(--color-blue);
+        color: var(--color-blue);
+        transition: 0.2s all;
+    }
+/* Footer*/
+.footer {
+    background-color: var(--color-blue);
+    border-top: 3px solid var(--color-yellow);
+}
+
+.top-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fotter-nav-list {
+    columns: 3;
+}
+
+.footer-nav-item {
+    margin-bottom: 15px;
+}
+
+.bottom-block {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bottom-footer {
+    border-top: 1px solid var(--color-yellow);
+}
+
+.copyright, .social-link, .footre-nav-link {
+    color: white;
+}
+
+.social-list {
+    margin-left: auto;
+}
+
+.social-link {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: large;
+}
+
+/* Trips Section*/
+
+.trips-item, .info-cities, .driver-info, .travel-condotions {
+    display: flex;
+}
+
+.trips-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trips-driver {
+    padding-left: 2%;
+}
+
+.trips-info {
+    display: flex;
+    flex-direction: column;
+}
+
+ .trips-driver, .trips-price {
+    flex: 1 1 25%;
+    margin: 10px;
+}
+.trips-info{
+    flex:1 1 40%;
+    margin:10px;
+}
+.trip-cities, .trips-datetime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trips-datetime {
+    margin-top: 15px;
+}
+
+.city-from, .city-to, .trip-cities, .trips-datetime {
+    display: flex;
+}
+
+.trips-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
+
+.trip-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    flex: 1 1 20px;
+}
+
+.detail-image {
+    border-radius: 16px;
+    font-size: 28px;
+}
+
+.driver-info {
+    padding: 5px;
+    background-color: var(--color-gray);
+    border-radius: 17px;
+}
+
+.drive-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.trip-text-format {
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+}
+/* .city-to, .info-time{
+    margin-left: auto;
+} */
+.city-from::before, .city-to::before, .info-date::before, .info-time::before {
+    font-family: 'iconiko';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.city-from::before {
+    content: "\eb59";
+}
+
+.city-to::before {
+    content: "\eb5a";
+}
+
+.info-date::before {
+    content: "\eb6a";
+}
+
+.info-time::before {
+    content: "\e9c5";
+}
+
+.travel-condotions {
+    margin-left: 5px;
+}
+
+.baby-chair::before, .animals-in-car::before, .smoke-in-car::before, .place-baggage::before {
+    font-family: 'iconiko';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 22px;
+    color: var(--color-green);
+    padding-right: 15px;
+}
+
+.condotions-active::before {
+    color: var(--color-red);
+}
+
+.baby-chair::before {
+    content: "\e9cc";
+}
+
+.animals-in-car::before {
+    content: "\e9d8";
+}
+
+.smoke-in-car::before {
+    content: "\ed51";
+}
+
+.place-baggage::before {
+    content: "\e9d4";
+}
+
+.drive-img {
+    margin-right: 10px;
+}
+
+.trip-price {
+    padding: 15px;
+    background-color: var(--color-yellow);
+    border-radius: 0px 10px 0px 10px;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.trip-price-info {
+    margin-left: 5px;
+    font-size: 15px;
+}
+/* Add Trip*/
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    flex: 20%;
+    margin-right: 15px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    color: var(--color-height-gray);
+}
+
+.form-input {
+    flex: 80%;
+}
+/* Login & Register*/
+.log-container {
+    min-width: 300px;
+}
+
+.log-head {
+    margin: 20px;
+    text-align: center;
+    color: var(--color-height-gray);
+    font-size: 30px;
+}
+
+.log-label {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.log-btn {
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.login-link {
+    color: var(--color-blue);
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+    .login-link:hover {
+        margin-left: 5px;
+        color: var(--color-height-gray);
+        transition: 0.5s linear;
+    }

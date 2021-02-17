@@ -1,0 +1,99 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Главная";
+}
+
+<section class="section-info">
+    <div class="section-white">
+        <div class="container section-info-block">
+            <h1 class="head-info">Поездки между городами стали доступнее</h1>
+        </div>
+    </div>
+</section>
+<section class="section-advantages section">
+    <div class="container">
+        <h2 class="section-head">Преимущества</h2>
+        <ul class="card-list">
+            <li class="card-item">
+                <h3 class="card-head">Безопасность</h3>
+                <p class="card-descriptions">Менеджеры проверяют информацию ваших данных. Ваша безопасность для нас важнее всего</p>
+            </li>
+            <li class="card-item">
+                <h3 class="card-head">Доступность</h3>
+                <p class="card-descriptions">
+                    Не нужно совершать несколько поездок, ловить машины около дороги.
+                    Вы договариваетесь обо всем заранее.
+                </p>
+            </li>
+            <li class="card-item">
+                <h3 class="card-head">Комфорт</h3>
+                <p class="card-descriptions">
+                    Приятная атмосфера и хорошее настроение на протяжении всего пути.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="section-search section">
+    <div class="container">
+        <h2 class="section-head search-head">Найти поездку</h2>
+        @await Html.PartialAsync(@"_SearchRides", null)
+    </div>
+</section>
+<section class="section-work section">
+    <div class="container">
+        <h2 class="section-head">Как это работет?</h2>
+        <ul class="work-tab-list">
+            <li class="work-tab-item active" onclick="openTab(event, 'Сompanion')">
+                <a href="#Companion" class="work-tab-link">Пассажир</a>
+            </li>
+            <li class="work-tab-item" onclick="openTab(event, 'Driver')">
+                <a href="#Driver" class="work-tab-link">Водитель</a>
+            </li>
+        </ul>
+        <div id="Сompanion" class="compation-block tabcontent">
+            <ul class="card-list">
+                <li class="card-item">
+                    <h3 class="card-head">Регистрация</h3>
+                    <p class="card-descriptions">
+                        Поездки между городами стали доступнее — зарегистрируйтесь на нашем сайте.
+                        Обязательно укажите достоверную информацию о себе, а так же подтвердите их. Сообщество строится на взаимном доверии.
+                    </p>
+                </li>
+                <li class="card-item">
+                    <h3 class="card-head">Поиск</h3>
+                    <p class="card-descriptions">
+                        Найдите наиболее подходящую поездку, воспользовавшись функцией поиска. Укажите удобную дату, время.
+                        Обратите внимание на детали поездки, марку автомобиля и прочие условия.
+                    </p>
+                </li>
+                <li class="card-item">
+                    <h3 class="card-head">Выбор</h3>
+                    <p class="card-descriptions">
+                        После выбора поездки забронируйте место и свяжитесь с водителем.
+                        уточните время и место отправки и получите ответ на все интересующие вопросы. Удачных поездок
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="Driver" class="drive-block tabcontent">
+            <ul class="card-list">
+                <li class="card-item">
+                    <h3 class="card-head">Регистрация</h3>
+                    <p class="card-descriptions">Наша задача- это чтобы вы доехали с комфортом на выгодных условиях. Для этого пройдите регистрацию, укажите данные о себе, добавьте информацию о вашей машине и ищите попутчиков.</p>
+                </li>
+                <li class="card-item">
+                    <h3 class="card-head">Предложение</h3>
+                    <p class="card-descriptions">Распишите ваш маршрут (отправление, промежуточные пункты, прибытие). Не забудьте добавить дату и время, когда вы будете, выезда. Заполните информацию об автомобиле.</p>
+                </li>
+                <li class="card-item">
+                    <h3 class="card-head">Отклик</h3>
+                    <p class="card-descriptions">
+                        Ждите пока вам напишет ваш новый знакомый. Обсудите с ним все детали поездки. Не забудьте забронировать заказ, ознакомиться с анкетой и принять заявку.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

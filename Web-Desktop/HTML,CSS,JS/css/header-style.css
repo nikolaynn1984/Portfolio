@@ -1,0 +1,105 @@
+/* Header */
+/* Up */
+.heading-up{
+  height: 115px;
+  align-items: center;
+  margin: 0;
+}
+.header-phone{
+font-size: 22px;
+font-weight: 600;
+color: var(--color-font6);
+
+
+}
+.header-phone, .contacts-link, .heading-cabinet{
+transition: opacity 0.5s ease;
+}
+.header-phone:hover, .contacts-link:hover, .heading-cabinet:hover{
+opacity: 0.7;
+}
+.logo{
+  margin-right: 25px;
+}
+.heading-cabinet{
+  margin-left: auto;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+
+  background-image: url("../img/icon/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+/* Down */
+
+.heading-bottom{
+  height: 70px;
+  padding: 0 20px;
+  margin: 0;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: 12px;
+
+}
+.nav-list{
+  display: flex;
+}
+.nav-item{
+font-size: 16px;
+line-height: 1;
+font-weight: 600;
+color: var(--color-font3);
+}
+.nav-item:not(:last-child){
+ margin-right: 45px;
+}
+.nav-link, .luxury-details, .services-item-head, .services-item-head, .end-item-link, .icon-right{
+  transition-property: color, stroke; /*Свойства которые должны меняться*/
+  transition-duration: .5s; /*Временной интервал в течении которого должен произойти переход*/
+  transition-timing-function: ease-in-out; /*Динамика перехода*/
+
+}
+.nav-link:hover{
+color: var(--color-orange);
+}
+
+.search-forms{
+  margin-left: auto;
+  margin-right: 0;
+  height: 48px;
+  min-width: 350px;
+
+}
+.search{
+  margin: 0;
+  width: 100%;
+  padding: 12px;
+  border: none;
+
+  color: var(--color-font3);
+  font-size: 14px;
+  line-height: 1;
+
+  background-color: var(--color-grey-light);
+  border-radius: 12px 0 0 12px;
+}
+.search-btn{
+  margin: 0;
+  height: 48px;
+  width: 48px;
+
+  border: none;
+  border-radius: 0 12px 12px 0 ;
+  background-color: var(--color-grey-light);
+
+  cursor: pointer;
+}
+.icon-search{
+  width: 22px;
+  height: 22px;
+  transition: fill 0.5s ease-in-out;
+}
+.search-btn:hover .icon-search{
+  fill: var(--color-font6);
+}
