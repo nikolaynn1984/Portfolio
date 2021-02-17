@@ -48,3 +48,11 @@ Client bank desktop application
         };
     ```
 5. Запускайте приложение!
+
+
+#Hotels
+Главная страница сайта Гостиничного комплекса - `HTML, CSS`
+
+На страничке используются спрайты `svg`, запускать лучше на локальном сервере
+
+<img src="https://github.com/nikolaynn1984/Portfolio/blob/main/hotels.png" max-width="700" alt="Скрин странички отели">
