@@ -1,0 +1,189 @@
+/*How work section*/
+.how-work-section{
+  margin-top: 101px;
+}
+.howwork-list-tab{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 2px;
+}
+.howwork-list-link{
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+.howwork-list-item:not(:last-child){
+  margin-right: 89px;
+}
+.howwork-list-link:hover, .howwork-list-link:focus{
+  color: var(--color-orange-1);
+}
+.howwork-list-link:active{
+  color: var(--color-orange-3);
+}
+.howwork-tab-block{
+  display: none;
+  margin-top: 47px;
+  margin-left: 3px;
+}
+.tab-content-active{
+  display: block;
+}
+.howwork-tab-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.how-work-description{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+.how-work-image{
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  min-height: 465px;
+  margin-left: 26px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.howwork-tab-button{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 4px;
+  margin-top: auto;
+}
+.tab-description{
+  margin-top: 6px;
+  line-height: 32px;
+}
+.btn-howork-tab{
+  margin-left: 30px;
+}
+.btn-howork-tab-small:focus, .btn-howork-tab:focus{
+  -webkit-box-shadow: 0 0 5px 4px gray;
+          box-shadow: 0 0 5px 4px gray;
+}
+@media (max-width: 1024px){
+  .how-work-section{
+    margin-top: 60px;
+  }
+  .howwork-heading{
+    margin-left: -4px;
+  }
+  .howwork-list-tab, .howwork-tab-block{
+    margin-left: 0;
+  }
+  .howwork-tab-block{
+    margin-top: 46px;
+  }
+  .how-work-description{
+    max-width: 437px;
+  }
+  .how-work-image{
+    margin-left: 50px;
+    margin-top: 5px;
+    min-height: 693px;
+    background-position: center;
+  }
+  .howwork-tab-button{
+    padding-top: 27px;
+  }
+}
+@media (max-width:768px){
+  .howwork-tab-block{
+    margin-top: 46px;
+  }
+  .howwork-list-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .howwork-tab-item{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .howwork-list-tab{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+      justify-content: space-between;
+    margin-top: 47px;
+  }
+  .how-work-image{
+    margin: 0;
+    min-height: 284px;
+    padding-bottom: 284px;
+  }
+
+  .how-work-description{
+    max-width: fit-content;
+    min-height: 473px;
+    margin-top: 40px;
+  }
+  .howwork-tab-button{
+    padding-top: 30px;
+  }
+}
+
+@media (max-width:576px){
+  .how-work-section{
+    margin-top: 48px;
+  }
+  .howwork-heading{
+    margin-left: 0;
+  }
+  .howwork-list-link{
+    font-size: 13px;
+  }
+  .how-work-description{
+    margin-top: 13px;
+    min-height: 0;
+  }
+  .tab-description{
+    margin-top: 4px;
+    line-height: 28px;
+  }
+  .howwork-list-tab{
+    margin-top: 31px;
+  }
+  .howwork-tab-block{
+    margin-top: 15px;
+  }
+  .howwork-tab-button{
+    padding-top: 21px;
+  }
+  .how-work-image{
+    padding-bottom: 158px;
+    min-height: 160px;
+  }
+  .btn-howork-tab{
+    margin-left: 10px;
+    width: 42%;
+
+    text-align: center;
+  }
+  .btn-howork-tab-small{
+    width: 58%;
+
+    text-align: center;
+  }
+
+}

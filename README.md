@@ -48,3 +48,28 @@ Client bank desktop application
         };
     ```
 5. Запускайте приложение!
+
+# Hotels
+Главная страница сайта Гостиничного комплекса - `HTML, CSS`
+
+На страничке используются спрайты `svg`, запускать лучше на локальном сервере
+
+<img src="https://github.com/nikolaynn1984/Portfolio/blob/main/hotels.png" max-width="500" alt="Скрин странички отели">
+
+
+# Ewklid
+Главная страница сайта Евклид - `HTML, CSS`
+
+На страничке используются спрайты `svg`, запускать лучше на локальном сервере
+
+`Разрешение - 1920`
+
+<img src="https://github.com/nikolaynn1984/Portfolio/blob/main/Web-Desktop/HTML,CSS,JS/ewklid/screen/max.png" max-width="500" alt="Скрин Евклид">
+
+`Разрешение - 768`
+
+<img src="https://github.com/nikolaynn1984/Portfolio/blob/main/Web-Desktop/HTML,CSS,JS/ewklid/screen/768.png" max-width="350" alt="Скрин Евклид">
+
+`Разрешение - 320`
+
+<img src="https://github.com/nikolaynn1984/Portfolio/blob/main/Web-Desktop/HTML,CSS,JS/ewklid/screen/320.png" max-width="250" alt="Скрин Евклид">
