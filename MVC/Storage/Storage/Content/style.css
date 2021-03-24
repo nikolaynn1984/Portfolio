@@ -117,7 +117,21 @@ body {
     background-size: 10px;
     transition: transform 0.2s ease;
 }
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: 15px;
+    min-width: 250px;
+    top: -25px;
+    left: 80%;
+    background-color: white;
+    border: 1px solid #246ab9;
+    transition: display 0.3s ease-in;
+}
 
+.item-file:hover + .tooltip {
+    display: block;
+}
 .is-open.item-folder::after {
     transform: rotate(90deg);
 }
@@ -144,7 +158,9 @@ body {
     background-repeat: no-repeat;
     background-size: 17px;
 }
-
+.files-item {
+    position: relative;
+}
 .file-icon {
     margin: 0 5px;
     padding: 9px;

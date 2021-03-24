@@ -31,7 +31,9 @@
             foreach (var items in files)
             {
                 <ul class="files-list">
-                    <li class="files-item"> <button data-file="@items.Id" class="files-btn item-file"><span class="file-icon" style="background-image: url('../Content/icons/tree/@items.Type.Icon');"></span>@items.Name</button></li>
+                    <li class="files-item"> <button data-file="@items.Id" class="files-btn item-file">
+                        <span class="file-icon" style="background-image: url('../Content/icons/tree/@items.Type.Icon');"></span>@items.Name</button>
+                        <span class="tooltip">@items.Description</span></li>
                 </ul>
             }
         }
