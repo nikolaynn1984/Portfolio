@@ -260,12 +260,14 @@ $('#LoadFileForm').submit(function (e) {
                     var parent = document.querySelector(`[data-folder="${responce.FolderId}"]`);
                     $(parent).after('<li class= "files-item">' +
                         ' <button data-file="' + responce.Id + '" class="files-btn item-file"><span class="file-icon" style="background-image: url(../Content/icons/tree/' + responce.Type.Icon + ');"></span>' + responce.Name + '</button>' +
+                        '<span class="tooltip">' + responce.Description + '</span></li>'+
                         '</li > ');
                 }
                 else {
                     $('.tree-box').prependTo('<ul class="files-list">' +
                         '<li class= "files-item">' +
                         ' <button data-file="' + responce.Id + '" class="files-btn item-file"><span class="file-icon" style="background-image: url(../Content/icons/tree/' + responce.Type.Icon + ');"></span>' + responce.Name + '</button>' +
+                        '<span class="tooltip">' + responce.Description + '</span></li>' +
                         '</li > ' +
                         ' </ul >');
                 }
