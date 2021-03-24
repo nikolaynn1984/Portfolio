@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Хранилище</title>
+    @Styles.Render("~/Content/css")
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><button class="nav-btn" onclick="addFolder()">Создать папку</button> </li>
+                    <li><button class="nav-btn" onclick="removeFolder()">Удалить папку</button></li>
+                    <li><button class="nav-btn" onclick="loaderView()">Загрузить фаил</button></li>
+                    <li><a  href="/Home/DowloadFile/1014" class="nav-btn download-btn" >Скачать фаил</a></li>
+                    <li><button class="nav-btn" onclick="removeFile()">Удалить фаил</button></li>
+                    <li><button class="nav-btn" onclick="editFile()">Переименовать</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        @RenderBody()
+        <div class="edit-box-folder">
+            <form name="docForm" action="" id="EditFolderForm" class="add-form ">
+                <h3 class="edit-box-header">Название папки</h3>
+                <input type="text" name="name" id="name" maxlength="15" minlength="3" placeholder="Введите название" required class="input">
+                <button class="edit-box-btn">Сохранить</button>
+            </form>
+        </div>
+        <div class="edit-box-file">
+            <form name="docForm" action="" id="EditFileForm" class="add-form">
+                <h3 class="edit-box-header">Название файла</h3>
+                <input type="text" name="name" id="filename" maxlength="15" minlength="3" placeholder="Введите название" required class="input">
+                <button class="edit-box-btn">Сохранить</button>
+            </form>
+        </div>
+        <div class="load-box-file">
+            <form name="docForm" enctype="multipart/form-data" id="LoadFileForm" class="load-form-file">
+                <h3 class="edit-box-header">Выберите фаил</h3>
+                <input type="file" name="file" id="file" placeholder="Введите название" required class="input">
+                <button class="edit-box-btn">Сохранить</button>
+            </form>
+        </div>
+    </main>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/scripts.js"></script>
+   
+</body>
+</html>

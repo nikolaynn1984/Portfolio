@@ -1,0 +1,45 @@
+﻿@model  Storage.Models.ViewModel.FilesViewModel
+
+@if (Model.GetFolders.Where(x => x.ParentId == Model.Seed).Any())
+{
+<ul class="files-list">
+    @foreach (var node in Model.GetFolders)
+    {
+        if (node.ParentId == Model.Seed)
+        {
+            Storage.Models.ViewModel.FilesViewModel inner = new Storage.Models.ViewModel.FilesViewModel { Seed = node.Id, GetFolders = Model.GetFolders, GetFiles = Model.GetFiles };
+    <li class="files-item">
+
+        @if (node.ParentId == 0)
+        {
+            <button data-folder="@node.Id" class="files-btn item-folder is-open"><span class="folder-icon"></span>@node.Name </button>
+        }
+        else
+        {
+            <button data-folder="@node.Id" class="files-btn item-folder is-close"><span class="folder-icon"></span>@node.Name </button>
+        }
+
+
+
+        @Html.Partial("_TreeList", inner)
+        @{
+            var files = Model.GetFiles.Where(x => x.FolderId == node.Id).ToList();
+        }
+
+        @if (files != null)
+        {
+            foreach (var items in files)
+            {
+                <ul class="files-list">
+                    <li class="files-item"> <button data-file="@items.Id" class="files-btn item-file"><span class="file-icon" style="background-image: url('../Content/icons/tree/@items.Type.Icon');"></span>@items.Name</button></li>
+                </ul>
+            }
+        }
+    </li>
+           
+        }
+
+    }
+</ul>
+
+}
