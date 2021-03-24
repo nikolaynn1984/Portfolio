@@ -32,7 +32,7 @@ namespace Storage.Controllers
             return View(model);
         }
         [HttpPost]
-        public ActionResult AddFolder(int id, string name, int parentid)
+        public ActionResult Edit(int id, string name, int parentid)
         {
             try
             {
@@ -49,7 +49,7 @@ namespace Storage.Controllers
            
         }
         [HttpPost]
-        public ActionResult RemoveFolder(int id)
+        public ActionResult Delete(int id)
         {
             try
             {
@@ -62,63 +62,11 @@ namespace Storage.Controllers
             }
             
         }
-        [HttpPost]
-        public ActionResult RemoveFile(int id)
-        {
-            try
-            {
-                bool result = repository.RemoveFile(id);
-                return Json(result, JsonRequestBehavior.AllowGet);
-            }
-            catch
-            {
-                return RedirectToAction("Index");
-            }
-            
-        }
-        [HttpPost]
-        public ActionResult RenameFile(int id, string name)
-        {
-            try
-            {
-                bool result = repository.RenameFile(id, name);
-                return Json(result, JsonRequestBehavior.AllowGet);
-            }
-            catch
-            {
-                return RedirectToAction("Index");
-            }
-            
-        }
-        [HttpPost]
-        public async  Task<ActionResult> UploadFile(int id)
-        {
-            try
-            {
-                HttpFileCollectionBase files = Request.Files;
-                HttpPostedFileBase file = files[0];
-                Models.File fileresult = await repository.UploadFile(file, id);
-                return Json(fileresult, JsonRequestBehavior.AllowGet);
-            }
-            catch
-            {
-                return RedirectToAction("Index");
-            }
-            
-        }
-        [HttpGet]
-        public async Task<ActionResult> GetFileById(int id)
-        {
-            var file = await repository.GetFileById(id);
-            return Json(file, JsonRequestBehavior.AllowGet);
-        }
         
-        public FileResult DowloadFile(int id)
-        {
-            string path = repository.LoadFile(id);
-            string name = Path.GetFileName(path);
-            string mime = MimeMapping.GetMimeMapping(path);
-            return File(path, mime, name);
-        }
+       
+       
+        
+        
+        
     }
 }

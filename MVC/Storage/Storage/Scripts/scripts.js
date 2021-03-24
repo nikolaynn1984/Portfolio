@@ -71,7 +71,7 @@ $('body').on('dblclick', '.item-file', function (e) {
     if (findResult) {
         e.preventDefault();
         $.ajax({
-            url: "Home/GetFileById",
+            url: "Files/Get", // Получение данных по идентификатору
             type: "GET",
             data: { 'id': fileId },
             success: function (response) {
@@ -106,7 +106,7 @@ var removeFolder = function () {
         result = confirm('Удалить папку - ' + folder.textContent + '?');
         if (result) {
                 $.ajax({
-                    url: "Home/RemoveFolder",
+                    url: "Home/Delete",  //Удаление папки
                     type: "POST",
                     data: { 'id': folderId },
                     success: function (response) {
@@ -127,7 +127,7 @@ var removeFile = function () {
         result = confirm('Удалить фаил - ' + file.textContent + '?');
         if (result) {
             $.ajax({
-                url: "Home/RemoveFile",
+                url: "Files/Delete",  //Удаление файла
                 type: "POST",
                 data: { 'id': fileId },
                 success: function (response) {
@@ -207,7 +207,7 @@ $('#EditFolderForm').submit(function (e) {
     var name = document.querySelector('#EditFolderForm').name.value;
     e.preventDefault();
     $.ajax({
-        url: "Home/AddFolder",
+        url: "Home/Edit", //Переименовывание/добавление папки
         type: "POST",
         data: { 'id': folderId, 'name': name, 'parentid': parentid },
         success: function (response) {
@@ -222,12 +222,13 @@ $('#EditFileForm').submit(function (e) {
     var file = document.querySelector(`[data-file="${fileId}"]`);
     e.preventDefault();
     $.ajax({
-        url: "Home/RenameFile",
+        url: "Files/Edit", //Переименовывание файла
         type: "POST",
         data: { 'id': fileId, 'name': name},
         success: function (response) {
             if (response) {
-                file.innerHTML = '<span class="file-icon" style="background-image: url(' + "../Content/icons/tree/default.png"  + ');"></span>' + name;
+                file.innerHTML = '<span class="file-icon" style="background-image: url(' + "../Content/icons/tree/default.png" + ');"></span>' + name;
+                document.querySelector('.edit-box-file').classList.remove('is-visible');
             }
         },
     });
@@ -240,7 +241,7 @@ $('#LoadFileForm').submit(function (e) {
     document.querySelector('.load-box-file').classList.remove('is-visible');
         var fileData = new FormData();
         fileData.append(files[0].name, files[0]);
-    var urlfile = "/Home/UploadFile/" + folderId;
+    var urlfile = "/Files/Upload/" + folderId;  //Загрузка файла на сервер
     e.preventDefault();
     $.ajax({
         url: urlfile,
