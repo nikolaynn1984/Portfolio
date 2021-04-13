@@ -7,14 +7,26 @@ using System.Web;
 
 namespace Storage.Models
 {
+    /// <summary>
+    /// Папки
+    /// </summary>
     [Table("Folder")]
     public class Folder
     {
+        /// <summary>
+        /// Идентификатор
+        /// </summary>
         [Key]
         [Required]
         public int Id { get; set; }
+        /// <summary>
+        /// Название
+        /// </summary>
         [Required]
         public string Name { get; set; }
+        /// <summary>
+        /// Идентификатор родителя
+        /// </summary>
         [Required]
         public int ParentId { get; set; }
     }

@@ -9,9 +9,12 @@ using System.Web;
 
 namespace Storage.Repository
 {
+    /// <summary>
+    /// Хранилище файлов
+    /// </summary>
     public class FilesRepository
     {
-        private DataContext data = new DataContext();
+        private  DataContext data = new DataContext();
         private List<Folder> folders;
         private List<Models.File> files;
         private List<FileType> fileTypes;
@@ -21,7 +24,10 @@ namespace Storage.Repository
             this.files = new List<Models.File>();
             this.fileTypes = new List<FileType>();
         }
-
+        /// <summary>
+        /// Получить список папок
+        /// </summary>
+        /// <returns>Список папок</returns>
         public List<Folder> GetFolders()
         {
             using(DataContext context = new DataContext())
@@ -31,6 +37,10 @@ namespace Storage.Repository
                 return folders;
             }
         }
+        /// <summary>
+        /// Получить список файлов
+        /// </summary>
+        /// <returns>Список файлов</returns>
         public List<Models.File> GetFiles()
         {
             using(DataContext context = new DataContext())
@@ -113,21 +123,33 @@ namespace Storage.Repository
             }
             return result;
         }
-
+        /// <summary>
+        /// Загрузка файла
+        /// </summary>
+        /// <param name="upload">Фаил</param>
+        /// <param name="parentid">Идентификатор родителя</param>
+        /// <returns>Модель данных</returns>
         public async Task<Models.File> UploadFile(HttpPostedFileBase upload, int parentid)
         {
             Models.File file = new Models.File();
             string resulte = new StreamReader(upload.InputStream).ReadToEnd();
             int maxSize = 10 * 1024 * 1024;
+            int defaultType = 9;
             var type = GetTypeByName(upload.FileName);
             try
             {
                 if (upload.ContentLength > maxSize) return null;
 
-                if (type.Id == 9) file.Content = "Не известный формат файла";
-                else file.Content = resulte;
-                if (parentid == 0) file.FolderId = 1;
-                else file.FolderId = parentid;
+                if (type.Id == defaultType) 
+                    file.Content = "Не известный формат файла"; 
+                else 
+                    file.Content = resulte;
+
+                if (parentid == 0) 
+                    file.FolderId = 1;
+                else 
+                    file.FolderId = parentid;
+
                 file.FileTypeId = type.Id;
                 file.Name = upload.FileName;
                 file.Description = upload.FileName;
@@ -219,8 +241,6 @@ namespace Storage.Repository
             return result;
         }
 
-      
-
         /// <summary>
         /// Тип файла по идентификатору
         /// </summary>
@@ -241,7 +261,11 @@ namespace Storage.Repository
                 return null;
             }
         }
-
+        /// <summary>
+        /// Получить модель FileType по названию файла
+        /// </summary>
+        /// <param name="filename">Название файла</param>
+        /// <returns>Модель данных</returns>
         public FileType GetTypeByName(string filename)
         {
             var filetype = new FileType();
@@ -291,7 +315,11 @@ namespace Storage.Repository
                 return null;
             }
         }
-
+        /// <summary>
+        /// Получить путь к файлу по ID (Предварительно сохраняеи в директории)
+        /// </summary>
+        /// <param name="id">Идентификатор</param>
+        /// <returns>Путь к файлу</returns>
         public string LoadFile(int id)
         {
             var item = data.Files.SingleOrDefault(s => s.Id == id);
