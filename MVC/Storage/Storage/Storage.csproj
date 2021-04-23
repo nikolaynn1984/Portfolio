@@ -134,12 +134,15 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataContext.cs" />
-    <Compile Include="Models\File.cs" />
+    <Compile Include="Models\StoreFile.cs" />
     <Compile Include="Models\FileType.cs" />
     <Compile Include="Models\Folder.cs" />
     <Compile Include="Models\ViewModel\FilesViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\FilesRepository.cs" />
+    <Compile Include="Repository\FolderRepository.cs" />
+    <Compile Include="Services\IFolders.cs" />
+    <Compile Include="Services\IFiles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\font.css" />

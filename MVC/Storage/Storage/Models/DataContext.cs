@@ -16,7 +16,7 @@ namespace Storage.Models
         /// <summary>
         /// Файлы
         /// </summary>
-        public DbSet<File> Files { get; set; }
+        public DbSet<StoreFile> Files { get; set; }
         /// <summary>
         /// Типы файлов
         /// </summary>

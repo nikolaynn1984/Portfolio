@@ -1,4 +1,5 @@
 ﻿using Storage.Models;
+using Storage.Services;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,132 +7,49 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Mvc;
 
 namespace Storage.Repository
 {
     /// <summary>
     /// Хранилище файлов
     /// </summary>
-    public class FilesRepository
+    public class FilesRepository : IFiles
     {
-        private  DataContext data = new DataContext();
-        private List<Folder> folders;
-        private List<Models.File> files;
+        private DataContext context;
         private List<FileType> fileTypes;
         public FilesRepository()
         {
-            this.folders = new List<Folder>();
-            this.files = new List<Models.File>();
+            this.context = new DataContext();
+
             this.fileTypes = new List<FileType>();
         }
-        /// <summary>
-        /// Получить список папок
-        /// </summary>
-        /// <returns>Список папок</returns>
-        public List<Folder> GetFolders()
-        {
-            using(DataContext context = new DataContext())
-            {
-                folders = context.Folders.ToList();
 
-                return folders;
-            }
-        }
         /// <summary>
         /// Получить список файлов
         /// </summary>
         /// <returns>Список файлов</returns>
-        public List<Models.File> GetFiles()
+        public IEnumerable<StoreFile> Get()
         {
-            using(DataContext context = new DataContext())
-            {
-                files = context.Files.ToList();
+                var files =  context.Files.ToList();
+                fileTypes = context.FileTypes.ToList();
                 foreach(var type in files)
                 {
-                    type.Type = context.FileTypes.Find(type.FileTypeId);
+                    type.Type = fileTypes.SingleOrDefault(s => s.Id == type.FileTypeId);
                 }
                 return files;
-            }
-        }
-        /// <summary>
-        /// Добавление папки
-        /// </summary>
-        /// <param name="id">Идентификатор</param>
-        /// <param name="name">Название</param>
-        /// <param name="parentid">Идентификатор подпапки</param>
-        /// <param name="file">Выходные данные папки</param>
-        /// <returns>false - если вызвано исключение, в противном случае true</returns>
-        public bool AddFolder(int id, string name, int parentid, out Folder file)
-        {
-            bool result = true;
-            file = new Folder()
-            {
-                Id = id,
-                Name = name,
-                ParentId = parentid
-            };
-            try
-            {
-                
-                using (DataContext context = new DataContext())
-                {
-                    if (file.Id == 0)
-                    {
-                        context.Folders.Add(file);
-                        context.SaveChanges();
-                    }
-                    else
-                    {
-                        var confile = context.Folders.Find(file.Id);
-                        confile.Name = file.Name;
-                        context.SaveChanges();
-                    }
+        } 
 
 
-                }
-            }
-            catch
-            {
-                result = false;
-            }
-           
-            return result;
-        }
-        /// <summary>
-        /// Удалени папки и все его корни
-        /// </summary>
-        /// <param name="id">Идентификатор папки</param>
-        /// <returns>false - если вызвано исключение, в противном случае true</returns>
-        public bool RemoveFolder(int id)
-        {
-            bool result = true;
-            try
-            {
-                    var item = data.Folders.Find(id);
-
-                    var parent = data.Folders.Where(s => s.ParentId == item.Id).ToList();
-
-                RemoveParentFolder(parent);
-                RemoveFiles(item.Id);
-                data.Folders.Remove(item);
-                data.SaveChanges();
-                data.Dispose();
-            }
-            catch
-            {
-                result = false;
-            }
-            return result;
-        }
         /// <summary>
         /// Загрузка файла
         /// </summary>
         /// <param name="upload">Фаил</param>
         /// <param name="parentid">Идентификатор родителя</param>
         /// <returns>Модель данных</returns>
-        public async Task<Models.File> UploadFile(HttpPostedFileBase upload, int parentid)
+        public async Task<StoreFile> Upload(HttpPostedFileBase upload, int parentid)
         {
-            Models.File file = new Models.File();
+            StoreFile file = new StoreFile();
             string resulte = new StreamReader(upload.InputStream).ReadToEnd();
             int maxSize = 10 * 1024 * 1024;
             int defaultType = 9;
@@ -155,9 +73,8 @@ namespace Storage.Repository
                 file.Description = upload.FileName;
                 file.Type = type;
 
-                 data.Files.Add(file);
-                await data.SaveChangesAsync();
-                data.Dispose();
+                 context.Files.Add(file);
+                await context.SaveChangesAsync();
                 
             }
             catch
@@ -169,36 +86,23 @@ namespace Storage.Repository
             return file;
         }
 
-        /// <summary>
-        /// Удаление подпапок
-        /// </summary>
-        /// <param name="folder">Список папок</param>
-        private void RemoveParentFolder(List<Folder> folder)
-        {
-            foreach (var item in folder)
-            {
-                data.Folders.Remove(item);
-                    var parent = data.Folders.Where(s => s.ParentId == item.Id).ToList();
-                     RemoveFiles(item.Id);
-                    RemoveParentFolder(parent);
-            }
-        }
+
         /// <summary>
         /// Удаление файлов
         /// </summary>
         /// <param name="id">идентификатор папки</param>
-        private void RemoveFiles(int id)
+        public async void RemoveParent(int id)
         {
-            var items = data.Files.Where(s => s.FolderId == id).ToList();
-            foreach (var file in items) data.Files.Remove(file);
-        }
+            var items = await context.Files.Where(s => s.FolderId == id).ToListAsync();
+            foreach (var file in items) context.Files.Remove(file);
+        }  
 
         /// <summary>
         /// Удаление файла
         /// </summary>
         /// <param name="id">Идентификатор файла</param>
         /// <returns>false - если вызвано исключение, в противном случае true</returns>
-        public bool RemoveFile(int id)
+        public async Task<bool> Remove(int id)
         {
             bool resul = true;
             try
@@ -207,7 +111,7 @@ namespace Storage.Repository
                 {
                     var item = context.Files.Find(id);
                     context.Files.Remove(item);
-                    context.SaveChanges();
+                    await context.SaveChangesAsync();
                 }
             }
             catch
@@ -215,31 +119,28 @@ namespace Storage.Repository
                 resul = false;
             }
             return resul;
-        }
+        }   
         /// <summary>
         /// Переименовать названия файла
         /// </summary>
         /// <param name="id">Идентификатор</param>
         /// <param name="name">Название</param>
         /// <returns>false - если вызвано исключение, в противном случае true</returns>
-        public bool RenameFile(int id, string name)
+        public async Task<bool> Rename(int id, string name)
         {
             bool result = true;
             try
             {
-                using(DataContext context = new DataContext())
-                {
-                    var file = context.Files.SingleOrDefault(x => x.Id == id);
-                    file.Name = name;
-                    context.SaveChanges();
-                }
+                var file = context.Files.SingleOrDefault(x => x.Id == id);
+                file.Name = name;
+                await context.SaveChangesAsync();
             }
             catch
             {
                 result = false;
             }
             return result;
-        }
+        }  
 
         /// <summary>
         /// Тип файла по идентификатору
@@ -250,17 +151,15 @@ namespace Storage.Repository
         {
             try
             {
-                var item = data.FileTypes.Find(id);
-                data.Dispose();
+                var item = context.FileTypes.Find(id);
                 return item;
                 
             }
             catch
             {
-                data.Dispose();
                 return null;
             }
-        }
+        }  
         /// <summary>
         /// Получить модель FileType по названию файла
         /// </summary>
@@ -272,41 +171,40 @@ namespace Storage.Repository
             try
             {
                 string extension = Path.GetExtension(filename);
-                filetype = data.FileTypes.SingleOrDefault(s => s.Type == extension);
+                filetype = context.FileTypes.SingleOrDefault(s => s.Type == extension);
 
-                if (filetype == null) filetype = data.FileTypes.Find(9);
+                if (filetype == null) filetype = context.FileTypes.Find(9);
             }
             catch
             {
-                filetype = data.FileTypes.Find(9);
+                filetype = context.FileTypes.Find(9);
             }
             
             
 
             return filetype;
-        }
+        }   
         /// <summary>
         /// Получить данные файла по идентификатору
         /// </summary>
         /// <param name="id">/Идентификатор</param>
         /// <returns>Модель фаил</returns>
-        public async Task<Models.File> GetFileById(int id)
+        public async Task<StoreFile> GetById(int id)
         {
             try
             {
-                var file = new Models.File();
-                using(DataContext context = new DataContext())
+                var file = new StoreFile();
+
+                await context.Files.ForEachAsync(x =>
                 {
-                    await context.Files.ForEachAsync(x =>
+                    if(x.Id == id)
                     {
-                        if(x.Id == id)
-                        {
-                            file.Id = x.Id;
-                            file.Name = x.Name;
-                            file.Content = x.Content;
-                        }
-                    });
-                }
+                        file.Id = x.Id;
+                        file.Name = x.Name;
+                        file.Content = x.Content;
+                    }
+                });
+
                 if (file != null) return file;
                 else return null;
             }
@@ -314,19 +212,21 @@ namespace Storage.Repository
             {
                 return null;
             }
-        }
+        }  
         /// <summary>
         /// Получить путь к файлу по ID (Предварительно сохраняеи в директории)
         /// </summary>
         /// <param name="id">Идентификатор</param>
         /// <returns>Путь к файлу</returns>
-        public string LoadFile(int id)
+        public async Task<string> Load(int id)
         {
-            var item = data.Files.SingleOrDefault(s => s.Id == id);
+            var item = await context.Files.SingleOrDefaultAsync(s => s.Id == id);
             string path = HttpContext.Current.Server.MapPath($"\\Content\\temporary\\" + item.Name);
 
             System.IO.File.WriteAllText(path, item.Content);
             return path;
-        }
+        }   
+
+
     }
 }

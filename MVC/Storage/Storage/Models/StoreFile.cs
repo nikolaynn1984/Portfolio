@@ -11,7 +11,7 @@ namespace Storage.Models
     /// Файлы
     /// </summary>
     [Table("File")]
-    public class File
+    public class StoreFile
     {
         /// <summary>
         /// Идентификатор

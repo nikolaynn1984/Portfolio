@@ -1,22 +1,19 @@
 ﻿using Storage.Models;
 using Storage.Models.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using Storage.Repository;
-using System.IO;
-using System.Threading.Tasks;
+using Storage.Services;
 
 namespace Storage.Controllers
 {
     public class HomeController : Controller
     {
-        private FilesRepository repository;
+        private readonly FolderRepository folders;
+        private readonly FilesRepository files;
         public HomeController()
         {
-            this.repository = new FilesRepository();
+            this.folders = new FolderRepository();
+            this.files = new FilesRepository();
         }
         [HttpGet]
         public ActionResult Index()
@@ -24,8 +21,8 @@ namespace Storage.Controllers
             var model = new FilesViewModel()
             {
                 Seed = 0,
-                GetFolders = repository.GetFolders(),
-                GetFiles = repository.GetFiles()
+                GetFolders = folders.Get(),
+                GetFiles = files.Get()
                 
             };
 
@@ -38,7 +35,7 @@ namespace Storage.Controllers
             {
                 if (!ModelState.IsValid) return Json(false, JsonRequestBehavior.AllowGet);
                 Folder file = new Folder();
-                bool result = repository.AddFolder(id, name, parentid, out file);
+                bool result = folders.Add(id, name, parentid, out file);
                 if (result) return Json(file, JsonRequestBehavior.AllowGet);
                 else return Json(result, JsonRequestBehavior.AllowGet);
             }
@@ -53,7 +50,7 @@ namespace Storage.Controllers
         {
             try
             {
-                bool result = repository.RemoveFolder(id);
+                bool result = folders.Remove(id);
                 return Json(result, JsonRequestBehavior.AllowGet);
             }
             catch
@@ -62,11 +59,6 @@ namespace Storage.Controllers
             }
             
         }
-        
-       
-       
-        
-        
         
     }
 }

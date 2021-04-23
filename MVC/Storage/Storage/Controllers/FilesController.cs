@@ -1,4 +1,5 @@
 ﻿using Storage.Repository;
+using Storage.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,10 +12,10 @@ namespace Storage.Controllers
 {
     public class FilesController : Controller
     {
-        private FilesRepository repository;
+        private readonly FilesRepository files;
         public FilesController()
         {
-            repository = new FilesRepository();
+            this.files = new FilesRepository();
         }
 
         [HttpGet]
@@ -25,15 +26,15 @@ namespace Storage.Controllers
         [HttpGet]
         public async Task<ActionResult> Get(int id)
         {
-            var file = await repository.GetFileById(id);
+            var file = await files.GetById(id);
             return Json(file, JsonRequestBehavior.AllowGet);
         }
         [HttpPost]
-        public ActionResult Edit(int id, string name)
+        public async Task<ActionResult> Edit(int id, string name)
         {
             try
             {
-                bool result = repository.RenameFile(id, name);
+                bool result = await files.Rename(id, name);
                 return Json(result, JsonRequestBehavior.AllowGet);
             }
             catch
@@ -47,9 +48,9 @@ namespace Storage.Controllers
         {
             try
             {
-                HttpFileCollectionBase files = Request.Files;
-                HttpPostedFileBase file = files[0];
-                Models.File fileresult = await repository.UploadFile(file, id);
+                HttpFileCollectionBase file = Request.Files;
+                HttpPostedFileBase fileNew = file[0];
+                Models.StoreFile fileresult = await files.Upload(fileNew, id);
                 return Json(fileresult, JsonRequestBehavior.AllowGet);
             }
             catch
@@ -59,11 +60,11 @@ namespace Storage.Controllers
 
         }
         [HttpPost]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {
-                bool result = repository.RemoveFile(id);
+                bool result = await files.Remove(id);
                 return Json(result, JsonRequestBehavior.AllowGet);
             }
             catch
@@ -73,9 +74,9 @@ namespace Storage.Controllers
 
         }
 
-        public FileResult Dowload(int id)
+        public async Task<FileResult> Dowload(int id)
         {
-            string path = repository.LoadFile(id);
+            string path = await files.Load(id);
             string name = Path.GetFileName(path);
             string mime = MimeMapping.GetMimeMapping(path);
             return File(path, mime, name);

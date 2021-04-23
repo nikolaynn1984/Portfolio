@@ -22,6 +22,6 @@ namespace Storage.Models.ViewModel
         /// <summary>
         /// Список файлов
         /// </summary>
-        public IEnumerable<File> GetFiles { get; set; }
+        public IEnumerable<StoreFile> GetFiles { get; set; }
     }
 }
