@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing\\Landing.csproj": {}
+    "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing\\Landing.csproj": {}
   },
   "projects": {
-    "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\Landing.Interface.csproj": {
+    "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\Landing.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\Landing.Interface.csproj",
+        "projectUniqueName": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\Landing.Interface.csproj",
         "projectName": "Landing.Interface",
-        "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\Landing.Interface.csproj",
+        "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\Landing.Interface.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\obj\\",
+        "outputPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj": {
-                "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj"
+              "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj": {
+                "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj"
               }
             }
           }
@@ -63,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj": {
+    "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj",
+        "projectUniqueName": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj",
         "projectName": "Landing.Model",
-        "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj",
+        "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\obj\\",
+        "outputPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -89,7 +88,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,18 +134,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\Landing.Repository.csproj": {
+    "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\Landing.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\Landing.Repository.csproj",
+        "projectUniqueName": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\Landing.Repository.csproj",
         "projectName": "Landing.Repository",
-        "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\Landing.Repository.csproj",
+        "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\Landing.Repository.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\obj\\",
+        "outputPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,18 +160,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\Landing.Interface.csproj": {
-                "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Interface\\Landing.Interface.csproj"
+              "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\Landing.Interface.csproj": {
+                "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Interface\\Landing.Interface.csproj"
               },
-              "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj": {
-                "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj"
+              "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj": {
+                "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj"
               }
             }
           }
@@ -216,18 +213,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing\\Landing.csproj": {
+    "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing\\Landing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing\\Landing.csproj",
+        "projectUniqueName": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing\\Landing.csproj",
         "projectName": "Landing",
-        "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing\\Landing.csproj",
+        "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing\\Landing.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing\\obj\\",
+        "outputPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -242,18 +239,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj": {
-                "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj"
+              "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj": {
+                "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj"
               },
-              "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\Landing.Repository.csproj": {
-                "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Repository\\Landing.Repository.csproj"
+              "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\Landing.Repository.csproj": {
+                "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Repository\\Landing.Repository.csproj"
               }
             }
           }
@@ -305,7 +301,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

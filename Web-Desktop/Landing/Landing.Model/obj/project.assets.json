@@ -510,11 +510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj",
+      "projectUniqueName": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj",
       "projectName": "Landing.Model",
-      "projectPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\Landing.Model.csproj",
+      "projectPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\Landing.Model.csproj",
       "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-      "outputPath": "D:\\SkillBox\\Обучение C# с нуля до ПРО\\Диплом\\project\\Landing\\Landing.Model\\obj\\",
+      "outputPath": "D:\\SkillBox\\Portfolio\\Portfolio\\Web-Desktop\\Landing\\Landing.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -529,7 +529,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -576,7 +575,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
