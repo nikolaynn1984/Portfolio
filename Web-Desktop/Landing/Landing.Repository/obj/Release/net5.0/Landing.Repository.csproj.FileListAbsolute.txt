@@ -1,0 +1,17 @@
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Repository.deps.json
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Repository.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\ref\Landing.Repository.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Repository.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Interface.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Model.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Interface.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\bin\Release\net5.0\Landing.Model.pdb
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.csprojAssemblyReference.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.AssemblyInfoInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.AssemblyInfo.cs
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.csproj.CoreCompileInputs.cache
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.csproj.CopyComplete
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\ref\Landing.Repository.dll
+F:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Release\net5.0\Landing.Repository.pdb

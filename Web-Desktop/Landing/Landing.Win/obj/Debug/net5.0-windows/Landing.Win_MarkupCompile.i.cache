@@ -1,0 +1,20 @@
+﻿Landing.Win
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Win\obj\Debug\net5.0-windows\
+Landing.Win
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Win\App.xaml
+11-292362935
+1-950474407
+34696683119
+2311232905662
+LanControls\ApplicationWindow.xaml;LanControls\BlogView.xaml;LanControls\ContactsView.xaml;LanControls\MainWindow.xaml;LanControls\ProjectsView.xaml;LanControls\ServicesView.xaml;LanControls\TelegramBotView.xaml;View\AdminWindow.xaml;View\AuthWindow.xaml;View\SocialDialog.xaml;View\WindowWeb.xaml;
+
+True
+

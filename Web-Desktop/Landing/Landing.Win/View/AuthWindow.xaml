@@ -1,0 +1,80 @@
+﻿<Window x:Class="Landing.Win.View.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        Background="{x:Null}"
+        x:Name="authWindow"
+        xmlns:local="clr-namespace:Landing.Win.View" xmlns:viewmodel="clr-namespace:Landing.Win.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:AuthViewModel}"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="450" AllowsTransparency="True" WindowStyle="None">
+    <Grid>
+        <Grid Cursor="Hand" x:Name="AuthBar" Height="40" VerticalAlignment="Top" MouseDown="AuthBar_MouseDown" Panel.ZIndex="2">
+            <Border Background="#053a62" CornerRadius="10, 10,0, 0" Margin="0,0,10,0"></Border>
+            <TextBlock Text="Авторизация" Margin="10,10,28,10" FontSize="16" Foreground="White"/>
+            <Button x:Name="btmAuthClose" Content="X" IsCancel="True" Command="{Binding CloseCommand}"
+                    CommandParameter="{Binding ElementName=authWindow}" HorizontalAlignment="Left" Style="{StaticResource MessagesCloseButton}" Margin="385,-1,0,1"/>
+
+        </Grid>
+        <Border Background="White" Margin="0,30,10,0" CornerRadius="0,0,10,10" BorderThickness="0.6" BorderBrush="#FF939393">
+            <Grid x:Name="AuthBody" Margin="60,30,60, 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Source="/Images/Logo.png" Height="65" />
+                <Label Grid.Row="1"  Content="Логин"/>
+                <TextBox x:Name="login" Grid.Row="2" IsEnabled="{Binding Elements}"  Style="{StaticResource AuthBox}" >
+                    <TextBox.Text>
+                        <Binding Path="Login" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <Label Grid.Row="3"  Content="Пароль"/>
+                <TextBox x:Name="password" Grid.Row="4" IsEnabled="{Binding Elements}" Style="{StaticResource AuthBox}">
+                    <TextBox.Text>
+                        <Binding Path="Password" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <DataErrorValidationRule/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <CheckBox  IsChecked="True" Style="{StaticResource customCheckboxStyle}" IsEnabled="{Binding Elements}" Grid.Row="5" ></CheckBox>
+
+
+                <Grid Grid.Row="6" Margin="0,15,0,0" >
+                    <Button Grid.Row="6" Content="Войти" IsEnabled="{Binding Saved}" IsDefault="True" Command="{Binding LoginCommand}" Style="{StaticResource BlueButton}">
+                    </Button>
+                    <Image  Source="/Images/ic_autorenew_white.png"  Visibility="{Binding LoadVisible}" Margin="0,0,10,4"  Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Center">
+                        <Image.RenderTransform>
+                            <RotateTransform x:Name="rotate" CenterX="15" CenterY="15"/>
+                        </Image.RenderTransform>
+                        <Image.Triggers>
+                            <EventTrigger RoutedEvent="Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard RepeatBehavior="Forever">
+                                        <DoubleAnimation Storyboard.TargetName="rotate"
+                                                     Storyboard.TargetProperty="Angle" By="360" Duration="0:0:1"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Image.Triggers>
+                    </Image>
+                </Grid>
+
+                <TextBlock Grid.Row="7" Height="60" Padding="3" TextWrapping="WrapWithOverflow" Text="{Binding ErrorText}" Foreground="Red" />
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

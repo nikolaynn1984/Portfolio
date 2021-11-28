@@ -1,0 +1,22 @@
+﻿@model Landing.Model.Data.Portfolio
+
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<div class="container">
+    <div class="detail-image-blok">
+      <h2 class="detail-header">@Model.Name</h2>
+      @if(@Model.GetImages != null){
+         <img class="detail-image" src="/Files/@Model.GetImages.Location/@Model.GetImages.Name"/>
+      }else{
+         <img class="detail-image" src=""/>
+      }
+      
+    </div>
+    <div class="details-description">
+      @Model.Description
+    </div>
+</div>
+
+

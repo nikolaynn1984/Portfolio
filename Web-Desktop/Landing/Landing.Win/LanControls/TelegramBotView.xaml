@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="Landing.Win.LanControls.TelegramBotView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Landing.Win.LanControls"
+             xmlns:UIT="clr-namespace:Landing.Win.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <ListView Grid.Row="0" Name="listUsers" ItemsSource="{Binding UsersList}"
+                      IsSynchronizedWithCurrentItem="True" HorizontalContentAlignment="Stretch"
+                      BorderBrush="Gray" BorderThickness="0 0 1 0" Background="Transparent">
+                <ListView.ItemContainerStyle>
+                    <Style>
+                        <Setter Property="Control.Padding" Value="0"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="ListViewItem.IsSelected" Value="True">
+                                <Setter Property="ListViewItem.Background" Value="White"/>
+                                <Setter Property="ListViewItem.BorderThickness" Value="1"/>
+                                <Setter Property="ListViewItem.BorderBrush" Value="White"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0" Background="White">
+                            <Border  BorderThickness="1" BorderBrush="{StaticResource Blue-Light}" Padding="3"
+                                Background="{Binding Path=Background, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListViewItem}}}">
+                                <StackPanel >
+                                    <TextBlock Text="{Binding UserName}"  FontSize="18"/>
+                                    <TextBlock Text="{Binding StringFormat=Дата добавления {0:dd/MM/yyyy},Path=AddDate }" Foreground="Gray"/>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0 1 1 0 ">
+                <Grid  >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="35"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{Binding ConString}" Foreground="{Binding ConColor}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Viewbox Height="25" Grid.Column="1" Width="25" HorizontalAlignment="Center">
+                        <Path Fill="{Binding ConColor}" Stroke="{Binding ConColor}" Data="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/>
+                    </Viewbox>
+                </Grid>
+            </Border>
+
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <ListBox Name="ListMessage"
+                     HorizontalContentAlignment="Stretch" ItemsSource="{Binding MessagesList}"
+                     Background="Transparent" IsSynchronizedWithCurrentItem="True" VerticalContentAlignment="Bottom"
+                     BorderThickness="0" UIT:ListBoxExtenders.AutoScrollToEnd="True">
+                <ListBox.ItemTemplateSelector>
+                    <UIT:MessageDataTemplateSelector
+                        messageClien="{StaticResource messageClien}"
+                        messageAdmin="{StaticResource messageAdmin}"
+                        imageAdmin="{StaticResource imageAdmin}"
+                        imageClient="{StaticResource imageClient}"/>
+                </ListBox.ItemTemplateSelector>
+
+            </ListBox>
+            <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="0 1 0 0" Padding="2">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="btnBotAttach" Grid.Column="0" Width="35" Height="35" Style="{StaticResource BotButton}" BorderBrush="White" Background="Transparent" Command="{Binding RelayAttachbtn}">
+                        <Viewbox Height="25" Width="25" HorizontalAlignment="Center">
+                            <Path Fill="{Binding ElementName=btnBotAttach, Path=Foreground}" Stroke="{Binding ElementName=btnBotAttach, Path=Foreground}" Data="M43.246 466.142c-58.43-60.289-57.341-157.511 1.386-217.581L254.392 34c44.316-45.332 116.351-45.336 160.671 0 43.89 44.894 43.943 117.329 0 162.276L232.214 383.128c-29.855 30.537-78.633 30.111-107.982-.998-28.275-29.97-27.368-77.473 1.452-106.953l143.743-146.835c6.182-6.314 16.312-6.422 22.626-.241l22.861 22.379c6.315 6.182 6.422 16.312.241 22.626L171.427 319.927c-4.932 5.045-5.236 13.428-.648 18.292 4.372 4.634 11.245 4.711 15.688.165l182.849-186.851c19.613-20.062 19.613-52.725-.011-72.798-19.189-19.627-49.957-19.637-69.154 0L90.39 293.295c-34.763 35.56-35.299 93.12-1.191 128.313 34.01 35.093 88.985 35.137 123.058.286l172.06-175.999c6.177-6.319 16.307-6.433 22.626-.256l22.877 22.364c6.319 6.177 6.434 16.307.256 22.626l-172.06 175.998c-59.576 60.938-155.943 60.216-214.77-.485z"/>
+                        </Viewbox>
+                    </Button>
+                    <Border Grid.Column="1" Background="White" Margin="5,0"  CornerRadius="0" BorderThickness="1,0" BorderBrush="Gray"  Padding="0">
+                        <TextBox x:Name="txtMessage" Style="{StaticResource TextBoxSendBot}">
+                            <TextBox.Text>
+                                <Binding Path="MessageText" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged">
+                                    <Binding.ValidationRules>
+                                        <DataErrorValidationRule/>
+                                    </Binding.ValidationRules>
+                                </Binding>
+                            </TextBox.Text>
+                        </TextBox>
+                    </Border>
+
+                    <Button Name="btnBot" Grid.Column="2" IsDefault="True" IsEnabled="{Binding SendButton}" Width="35" Height="35" Command="{Binding RelaySendMessage}"  Style="{StaticResource BotButton}" BorderBrush="White" Background="Transparent">
+                        <Viewbox Height="25" Width="25" HorizontalAlignment="Center">
+                            <Path Fill="{Binding ElementName=btnBot, Path=Foreground}" Stroke="{Binding ElementName=btnBot, Path=Foreground}" Data="M0,495.75L0,318.25L535.5,267.75 M0,216.75L0,38.25L535.5,267.75"/>
+                        </Viewbox>
+                        
+                    </Button>
+                </Grid>
+            </Border>
+            
+        </Grid>
+
+        <Grid Grid.ColumnSpan="2" Margin="-5" Visibility="{Binding AttackVisible}" Background="#4C000000">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="2">
+                <Border BorderBrush="{StaticResource Blue}" BorderThickness="2" Background="White" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="250"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+                        <Button x:Name="closeAttach" 
+                                Width="20" 
+                                Height="20"
+                                Style="{StaticResource BotButton}"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                VerticalAlignment="Top" 
+                                HorizontalAlignment="Right"
+                                Command="{Binding RelayCloseAttach}">
+                            <Viewbox Height="20" Width="20" HorizontalAlignment="Center">
+                                <Path Fill="{Binding ElementName=closeAttach, Path=Foreground}" Stroke="{Binding ElementName=closeAttach, Path=Foreground}" Data="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/>
+                            </Viewbox>
+                        </Button>
+                        <Image Grid.Row="0" Source="{Binding AttachImage}" Width="250" Height="250" Margin="2"/>
+                        <Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1"/>
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="40"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox x:Name="txtCaption" Style="{StaticResource TextBoxSendBot}">
+                                <TextBox.Text>
+                                    <Binding Path="CaptionText" NotifyOnValidationError="True" UpdateSourceTrigger="PropertyChanged">
+                                    </Binding>
+                                </TextBox.Text>
+                            </TextBox>
+
+                            <Button Name="btnAttachBot" Grid.Column="1"  Width="35" Height="35" Command="{Binding RelaySendAttach}"  Style="{StaticResource BotButton}" BorderBrush="White" Background="Transparent">
+                                <Viewbox Height="25" Width="25" HorizontalAlignment="Center">
+                                    <Path Fill="{Binding ElementName=btnAttachBot, Path=Foreground}" Stroke="{Binding ElementName=btnAttachBot, Path=Foreground}" Data="M0,495.75L0,318.25L535.5,267.75 M0,216.75L0,38.25L535.5,267.75"/>
+                                </Viewbox>
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

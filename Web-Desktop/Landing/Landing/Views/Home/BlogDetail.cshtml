@@ -1,0 +1,20 @@
+﻿@model Landing.Model.Data.Blog
+
+@{
+    ViewData["Title"] = @Model.Name;
+}
+
+<div class="container">
+    <div class="detail-image-blok">
+        <h2 class="detail-header">@Model.Name</h2>
+    </div>
+    <div class="blog-details-description">
+        @if(@Model.GetImages != null){
+            <img class="blog-detail-image" src="/Files/@Model.GetImages.Location/@Model.GetImages.Name"/>
+        }else{
+            <img class="blog-detail-image" src=""/>
+        }
+        
+        @Model.Description         
+    </div>
+</div>

@@ -1,0 +1,14 @@
+1. Требуется установить скрипты в SQLCreateDatandTables.sql в базу данных
+   База данных MSSQLServer
+2. Настройка подключения к базе данных в расположено в папке Landing.Server/ фаил с названием appsettings.json
+
+  в поле "ConnectionStrings": {
+    "DefaultConnection": "Data Source=(LocalDB)\\MSSQLLocalDB;Initial Catalog=LandingDataBase;Integrated Security=true;MultipleActiveResultSets=true;"
+
+  },
+
+3. Запустить Landing.Server, и после запускаем Landing.Win
+   Авторизируем с Логин : admin@landing.ru , Пароль: Passwd123
+
+4. Проводим необходимые настройки и бодавляем информацию 
+5. Запускаем Landing с запущеным Landing.Server

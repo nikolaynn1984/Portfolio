@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#SkillProfi - @ViewData["Title"]</title>
+    <link rel="preload" href="/Files/fonts/opensans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Files/fonts/opensans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Files/fonts/opensans-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/Files/fonts/opensans-extrabold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/Files/css/normalize.css" />
+    <link rel="stylesheet" href="/Files/css/font.css" />
+    <link rel="stylesheet" href="/Files/css/style.css" />
+    <link rel="stylesheet" href="/Files/css/style-mob.css" />
+
+    <script src="/Files/js/vue.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+             <div class="header-block">
+                <a href="index.html" ><img class="logo" src="/Files/img/icon/LogoW.png"/></a>
+                <button class="burger">
+                    <svg class="burger-icon"><use xlink:href="/Files/img/icon/vector.svg#menu"></use></svg>
+                </button>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="/Home/Index" class="nav-link">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/Services" class="nav-link">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/Projects" class="nav-link">Проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/Blog" class="nav-link">Блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Home/Contacts" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+        <main class="main">
+            @RenderBody()
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-box">
+               <div class="footer-top">
+                <div class="footer-contact">
+                     <img class="footer-icon" src="/Files/img/icon/LogoW.png">
+                </div>
+                <ul class="footer-nav">
+                    <li class="footer-item"><a href="/Home/Index" class="footer-link">О компании</a></li>
+                    <li class="footer-item"><a href="/Home/Services" class="footer-link">Услуги</a></li>
+                    <li class="footer-item"><a href="/Home/Projects" class="footer-link">Проекты</a></li>
+                    <li class="footer-item"><a href="/Home/Blog" class="footer-link">Блог</a></li>
+                </ul>
+                <ul id="socialList" class="footer-social-list">
+                    <li v-for="item in socs" class="footer-social-item">
+                        <a v-bind:href="item.link" v-bind:title="item.name" target="_blank">
+                            <img v-bind:src="item.imageId" v-bind:alt="item.name" class="footer-social-image">
+                         </a>
+                     </li>
+                </ul>
+                <ul class="footer-services">
+                    <li class="footer-item"><a href="/Home/Contacts" class="footer-link">Контакты</a></li>
+
+                </ul>
+               
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom-text">Политика конфиденциальности</p>
+            </div>
+            </div>
+        </footer>
+        <script src="/Files/js/scripts.js" ></script>
+</body>
+</html>

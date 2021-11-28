@@ -1,0 +1,53 @@
+﻿@model Landing.Model.Data.PageView;
+@{
+    ViewData["Title"] = "Главная";
+}
+
+<section class="banner-section">
+    <div class="container">
+        <div class="banner-block" >
+            <div class="banner-image" style="background-image: url('/Files/@Model.GetImages.Location/@Model.GetImages.Name');"></div>
+            <div class="banner-container">
+                <h2 class="banner-head">@Model.HeaderName</h2>
+                <button class="head-button">@Model.HeaderButtton</button>
+            </div>      
+        </div>
+    </div>
+</section>
+
+<section class="section-request">
+    <div class="container section-request-block">
+        <div  class="request-block">
+            <h2 class="request-head">Поможем в выборе!</h2>
+            <p id="message" class="request-description">Если у вас есть вопрос или вы не знаете что выбрать, оставьте свой номер: мы позвоним, чтобы ответить на все ваши вопросы</p>
+        </div>
+        <div id="application" class="request-form" >
+                <div class="form-row">
+                    <div class="row-contacts">
+                        <input type="text" v-model="name" name="name" class="input"  placeholder="Имя">
+                        <span v-if="errorName.length" class="input-error">{{ errorName }}</span>
+                    </div>
+                    <div  class="row-contacts">
+                        <input type="email" v-model="email" name="email" class="input" placeholder="Электронная почта">
+                        <span v-if="errorEmail.length" class="input-error">{{ errorEmail }}</span>
+                    </div>
+                    
+                </div>
+                <div class="form-row">
+                    <div  class="row-contacts">
+                        <textarea  v-model="message"  class="input" placeholder="Сообщение"></textarea>
+                        <span v-if="errorMessage.length" class="input-error">{{ errorMessage }}</span>
+                    </div>
+                    
+                </div>
+                <div class="form-row submit-row">
+                    <label class="check check-option">
+                        <input type="checkbox" class="check-input" v-model="isAgree" name="approve">
+                        <span class="check-box"></span>
+                        Я согласен с условиями обработки <a href="#" class="check-link">персональных данных</a>
+                    </label>
+                    <button v-on:click="send" v-bind:disabled="isSend" class="form-btn check-option">Отправить</button>
+                </div>
+            </div>
+    </div>
+</section>

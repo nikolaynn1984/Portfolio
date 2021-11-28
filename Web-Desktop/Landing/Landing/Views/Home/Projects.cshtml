@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Landing.Model.Data.Portfolio>
+
+@{
+    ViewData["Title"] = "Проекты";
+}
+
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-header">Проекты</h2>
+         <ul class="projects-list">
+            @foreach(var item in Model)
+            {
+               <li class="projects-item">
+                   <a href="/Home/ProgectDetail/@item.Id" class="projects-link">
+                       @if(@item.GetImages == null){
+                           <img src="" alt="@item.Name" class="projects-item-image">
+                       }else{
+                           <img src="/Files/@item.GetImages.Location/@item.GetImages.Name" alt="@item.Name" class="projects-item-image">
+                       }
+                      <h5 class="projects-item-name">@item.Name</h5>
+                   </a>
+               </li>
+            }
+           
+          
+       </ul>
+    </div>
+</section>

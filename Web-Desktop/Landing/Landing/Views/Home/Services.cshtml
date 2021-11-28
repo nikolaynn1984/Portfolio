@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Landing.Model.Data.Services>
+
+@{
+    ViewData["Title"] = "Услуги";
+}
+
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-header">Что мы можем сделать</h2>
+        <ul id="services" class="services-list">
+            @foreach(var item in Model)
+            {
+               <li class="services-list-item ">
+                   <button class="services-list-button">
+                   <svg class="service-item-icon"><use xlink:href="/Files/img/icon/vector.svg#down"></use></svg> @item.Name</button>
+                  <div class="services-list-detaild">@item.Description </div>
+               </li>
+            }
+           
+       </ul>
+    </div>
+</section>
+

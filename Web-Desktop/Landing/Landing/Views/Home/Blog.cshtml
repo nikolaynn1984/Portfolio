@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Landing.Model.Data.Blog>
+
+@{
+    ViewData["Title"] = "Блог";
+}
+
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-header">Блог</h2>
+        <ul  class="blok-list">
+            @foreach(var item in Model)
+            {
+               <li class="blog-list-item">
+                    <a class="article blog-item-link" href="/Home/BlogDetail/@item.Id">
+                    <figure class="blog-image-container">
+                        @if(@item.GetImages == null){
+                           <img src="" alt="@item.Name">
+                        }else{
+                            <img src="/Files/@item.GetImages.Location/@item.GetImages.Name" alt="@item.Name">
+                        }
+                    </figure>
+                    <div class="blog-item-contant">
+                      <h3 class="blog-item-head">
+                        @item.Name
+                      </h3>
+                      <p class="blog-item-description">
+                        @item.Description
+                      </p>
+                      <footer class="blog-item-info">
+                        <span>@item.CreadDate.ToLongDateString()</span>
+                      </footer>
+                    </div>
+                  </a>
+               </li>
+            }
+           
+       </ul>
+    </div>
+</section>

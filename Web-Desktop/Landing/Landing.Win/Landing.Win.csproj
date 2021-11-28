@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.xaml.cs~RF377cd58.TMP" />
+    <None Remove="Images\ic_add.png" />
+    <None Remove="Images\ic_add_black.png" />
+    <None Remove="Images\ic_autorenew_black.png" />
+    <None Remove="Images\ic_autorenew_white.png" />
+    <None Remove="Images\ic_close.png" />
+    <None Remove="Images\ic_delete.png" />
+    <None Remove="Images\ic_done.png" />
+    <None Remove="Images\ic_edit.png" />
+    <None Remove="Images\ic_maximize.png" />
+    <None Remove="Images\ic_menu.png" />
+    <None Remove="Images\ic_rollup.png" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\LogoW.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>4</VersionMajor>
+      <Guid>3050f1c5-98b5-11cf-bb82-00aa00bdce0b</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.864.35" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Landing.Model\Landing.Model.csproj" />
+    <ProjectReference Include="..\Landing.Repository\Landing.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\ic_add.png" />
+    <Resource Include="Images\ic_add_black.png" />
+    <Resource Include="Images\ic_autorenew_black.png" />
+    <Resource Include="Images\ic_autorenew_white.png" />
+    <Resource Include="Images\ic_close.png" />
+    <Resource Include="Images\ic_delete.png" />
+    <Resource Include="Images\ic_done.png" />
+    <Resource Include="Images\ic_edit.png" />
+    <Resource Include="Images\ic_maximize.png" />
+    <Resource Include="Images\ic_menu.png" />
+    <Resource Include="Images\ic_rollup.png" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\LogoW.png" />
+  </ItemGroup>
+
+</Project>

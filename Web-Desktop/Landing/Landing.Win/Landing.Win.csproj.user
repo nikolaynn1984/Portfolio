@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="LanControls\ApplicationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\BlogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\ContactsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\ProjectsView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\ServicesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LanControls\TelegramBotView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AuthWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SocialDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\WindowWeb.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="LanControls\ApplicationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\BlogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\ContactsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\ProjectsView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\ServicesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LanControls\TelegramBotView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AuthWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SocialDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\WindowWeb.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
