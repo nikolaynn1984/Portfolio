@@ -1,4 +1,4 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

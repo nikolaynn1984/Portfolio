@@ -1,6 +1,6 @@
-﻿using Landing.Interface;
-using Landing.Model.Data;
-using Landing.Model.Logging;
+﻿using Landing.Library.Model;
+using Landing.Library.Interfaces;
+using Landing.Library.Logging;
 using Landing.Server.Database.Query;
 using Landing.Server.Hubs;
 using Microsoft.AspNetCore.SignalR;

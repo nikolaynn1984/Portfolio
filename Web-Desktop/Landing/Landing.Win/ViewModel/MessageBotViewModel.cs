@@ -1,5 +1,5 @@
-﻿using Landing.Model.Data;
-using Landing.Model.Notifity;
+﻿using Landing.Library.Model;
+using Landing.Library.Notifity;
 using Landing.Repository;
 using Landing.Win.Helper;
 using Microsoft.Win32;

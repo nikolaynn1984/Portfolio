@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Landing.Interface;
-using Landing.Model.Data;
+using Landing.Library.Interfaces;
+using Landing.Library.Model;
 using Landing.Server.Database.Query;
 
 namespace Landing.Server.Data

@@ -1,11 +1,8 @@
-﻿using Landing.Model.Data;
-using Landing.Model.Logging;
-using Landing.Model.ViewModel;
+﻿using Landing.Library.Model;
+using Landing.Library.Logging;
+using Landing.Library.ViewModel;
 using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Landing.Server.Database.Query

@@ -41,7 +41,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Landing.Model\Landing.Model.csproj" />
     <ProjectReference Include="..\Landing.Repository\Landing.Repository.csproj" />
   </ItemGroup>
 

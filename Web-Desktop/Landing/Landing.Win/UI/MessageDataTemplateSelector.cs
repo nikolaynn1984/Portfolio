@@ -1,4 +1,4 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using System.Windows;
 using System.Windows.Controls;
 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Landing.Model\Landing.Model.csproj" />
+    <ProjectReference Include="..\Landing.Library\Landing.Library.csproj" />
     <ProjectReference Include="..\Landing.Repository\Landing.Repository.csproj" />
   </ItemGroup>
 

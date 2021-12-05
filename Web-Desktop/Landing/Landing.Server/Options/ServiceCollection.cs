@@ -1,7 +1,7 @@
-﻿using Landing.Interface;
+﻿using Landing.Library.Interfaces;
+using Landing.Library.Interfaces.Server;
 using Landing.Server.Auth;
 using Landing.Server.Data;
-using Landing.Server.Intarfase;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;

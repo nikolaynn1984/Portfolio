@@ -1,4 +1,4 @@
-﻿using Landing.Model.ViewModel;
+﻿using Landing.Library.ViewModel;
 using Landing.Repository.Interfase;
 using Landing.Repository.Loader;
 using System;

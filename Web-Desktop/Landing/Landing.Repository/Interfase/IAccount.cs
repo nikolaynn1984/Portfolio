@@ -1,4 +1,4 @@
-﻿using Landing.Model.ViewModel;
+﻿using Landing.Library.ViewModel;
 using System.Threading.Tasks;
 
 namespace Landing.Repository.Interfase

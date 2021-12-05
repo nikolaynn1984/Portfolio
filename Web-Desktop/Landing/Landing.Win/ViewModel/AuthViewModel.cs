@@ -4,9 +4,9 @@ using System;
 using System.Windows;
 using Landing.Repository.Failt;
 using System.Collections.Generic;
-using Landing.Model;
-using Landing.Model.ViewModel;
-using Landing.Model.Notifity;
+using Landing.Library;
+using Landing.Library.ViewModel;
+using Landing.Library.Notifity;
 using System.ComponentModel;
 
 namespace Landing.Win.ViewModel

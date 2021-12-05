@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Landing.Interface;
 using Landing.Repository.Interfase;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using Landing.Repository.Loader;
 using System.IO;
 using Microsoft.AspNetCore.StaticFiles;
+using Landing.Library.Interfaces;
 
 namespace Landing.Repository
 {

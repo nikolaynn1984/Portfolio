@@ -23,7 +23,7 @@
     },
     "0ef807cf-42e6-43e5-bc39-f8d686d321ce": {
       "ProjectGuid": "0ef807cf-42e6-43e5-bc39-f8d686d321ce",
-      "DisplayName": "Landing.Model",
+      "DisplayName": "Landing.Labrary",
       "ColorIndex": 4
     },
     "a39f4472-29de-4cc3-aaa7-2f920e10e2a2": {
@@ -40,7 +40,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Прочие файлы",
       "ColorIndex": -1
+    },
+    "f3bdc79a-c2b8-49b0-80a2-4d10b80b9974": {
+      "ProjectGuid": "f3bdc79a-c2b8-49b0-80a2-4d10b80b9974",
+      "DisplayName": "Landing.Labrary",
+      "ColorIndex": 7
+    },
+    "c00363d8-1131-4d21-a327-a81fcd8497d3": {
+      "ProjectGuid": "c00363d8-1131-4d21-a327-a81fcd8497d3",
+      "DisplayName": "Landing.Library",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

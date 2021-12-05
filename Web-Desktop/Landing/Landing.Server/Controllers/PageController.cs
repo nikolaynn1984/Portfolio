@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Landing.Interface;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using System.Threading.Tasks;
 using Landing.Server.Auth;
+using Landing.Library.Interfaces;
 
 namespace Landing.Server.Controllers
 {

@@ -1,5 +1,4 @@
-﻿using Landing.Model.Data;
-using Landing.Model.ViewModel;
+﻿using Landing.Library.Model;
 using Landing.Models;
 using Landing.ViewModel;
 using Microsoft.AspNetCore.Authorization;

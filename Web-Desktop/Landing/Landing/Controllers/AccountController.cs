@@ -1,4 +1,4 @@
-﻿using Landing.Model.ViewModel;
+﻿using Landing.Library.ViewModel;
 using Landing.Repository;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;

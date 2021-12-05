@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.OpenApi.Models;
 using Landing.Server.Hubs;
 using Landing.Server.Data;
-using Landing.Model.Logging;
+using Landing.Library.Logging;
 
 namespace Landing.Server
 {

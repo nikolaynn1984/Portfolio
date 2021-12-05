@@ -69,7 +69,7 @@ namespace Landing.Win.LanControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Landing.Win;V1.0.0.0;component/lancontrols/blogview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Landing.Win;component/lancontrols/blogview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\LanControls\BlogView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

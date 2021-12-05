@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using System.Collections.ObjectModel;
 using System.Windows.Data;
 using System.Windows;

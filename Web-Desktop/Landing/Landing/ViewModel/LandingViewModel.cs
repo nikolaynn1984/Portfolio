@@ -1,4 +1,4 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using Landing.Repository;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;

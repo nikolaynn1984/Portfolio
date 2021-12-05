@@ -1,5 +1,5 @@
-﻿using Landing.Interface;
-using Landing.Model.Data;
+﻿using Landing.Library.Model;
+using Landing.Library.Interfaces;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;

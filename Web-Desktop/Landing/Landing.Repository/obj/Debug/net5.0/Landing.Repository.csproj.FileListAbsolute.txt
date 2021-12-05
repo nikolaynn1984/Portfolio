@@ -32,3 +32,18 @@ D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Lan
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Debug\net5.0\ref\Landing.Repository.dll
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.pdb
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.csproj.CopyComplete
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\Landing.Repository.deps.json
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\Landing.Repository.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\ref\Landing.Repository.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\Landing.Repository.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\bin\Debug\net5.0\Landing.Library.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.csproj.AssemblyReference.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.AssemblyInfoInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.AssemblyInfo.cs
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.csproj.CoreCompileInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.csproj.CopyComplete
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\ref\Landing.Repository.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Repository\obj\Debug\net5.0\Landing.Repository.pdb

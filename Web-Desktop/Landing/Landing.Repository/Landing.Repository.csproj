@@ -15,8 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Landing.Interface\Landing.Interface.csproj" />
-    <ProjectReference Include="..\Landing.Model\Landing.Model.csproj" />
+    <ProjectReference Include="..\Landing.Library\Landing.Library.csproj" />
   </ItemGroup>
 
 </Project>

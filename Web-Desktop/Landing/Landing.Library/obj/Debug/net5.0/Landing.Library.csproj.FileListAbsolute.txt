@@ -1,0 +1,11 @@
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\bin\Debug\net5.0\Landing.Library.deps.json
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\bin\Debug\net5.0\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\bin\Debug\net5.0\ref\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\bin\Debug\net5.0\Landing.Library.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.AssemblyInfoInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.AssemblyInfo.cs
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.csproj.CoreCompileInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\ref\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Library\obj\Debug\net5.0\Landing.Library.pdb

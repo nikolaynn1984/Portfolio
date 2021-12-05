@@ -1,8 +1,7 @@
-﻿using Landing.Interface;
-using Landing.Model.Data;
-using Landing.Model.Logging;
+﻿using Landing.Library.Interfaces;
+using Landing.Library.Model;
+using Landing.Library.Logging;
 using Landing.Server.Data;
-using Landing.Server.Intarfase;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.IO;
@@ -12,6 +11,7 @@ using Telegram.Bot;
 using Telegram.Bot.Args;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.InputFiles;
+using Landing.Library.Interfaces.Server;
 
 namespace Landing.Server.Options
 {

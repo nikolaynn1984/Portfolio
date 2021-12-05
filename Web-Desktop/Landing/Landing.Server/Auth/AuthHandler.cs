@@ -1,15 +1,15 @@
 ﻿using System;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using Landing.Model.ViewModel;
-using Landing.Server.Intarfase;
+using Landing.Library.ViewModel;
 using System.Threading.Tasks;
 using System.Security.Claims;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using System.Text;
 using Landing.Server.Database.Query;
 using Landing.Server.Data;
-using Landing.Model.Logging;
+using Landing.Library.Logging;
+using Landing.Library.Interfaces.Server;
 
 namespace Landing.Server.Auth
 {

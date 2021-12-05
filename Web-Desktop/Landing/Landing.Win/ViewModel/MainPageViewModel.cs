@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Landing.Repository;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using Landing.Win.Helper;
 using System.Threading.Tasks;
 

@@ -1,4 +1,4 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using Landing.Repository;
 using Landing.Win.Helper;
 using Microsoft.Win32;

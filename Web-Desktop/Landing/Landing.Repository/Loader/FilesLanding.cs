@@ -1,6 +1,6 @@
 ﻿
-using Landing.Model.Data;
-using Landing.Model.Hash;
+using Landing.Library.Model;
+using Landing.Library.Hash;
 using Landing.Repository.Interfase;
 using Newtonsoft.Json;
 using System;

@@ -1,5 +1,5 @@
-﻿using Landing.Model.Data;
-using Landing.Model.Logging;
+﻿using Landing.Library.Model;
+using Landing.Library.Logging;
 using System;
 using System.Data.SqlClient;
 using System.Threading.Tasks;

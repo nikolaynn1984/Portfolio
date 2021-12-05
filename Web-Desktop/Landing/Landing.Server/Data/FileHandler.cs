@@ -1,12 +1,12 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Landing.Interface;
-using Landing.Server.Intarfase;
+using Landing.Library.Interfaces;
+using Landing.Library.Interfaces.Server;
 
 namespace Landing.Server.Data
 {

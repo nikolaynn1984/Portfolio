@@ -118,7 +118,7 @@ namespace Landing.Win.LanControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Landing.Win;V1.0.0.0;component/lancontrols/telegrambotview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Landing.Win;component/lancontrols/telegrambotview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\LanControls\TelegramBotView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

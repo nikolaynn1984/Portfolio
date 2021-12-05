@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
-using Landing.Model.ViewModel;
+using Landing.Library.ViewModel;
 using Landing.Repository.Interfase;
 using Newtonsoft.Json;
 

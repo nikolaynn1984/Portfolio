@@ -1,5 +1,5 @@
-﻿using Landing.Interface;
-using Landing.Model.Data;
+﻿using Landing.Library.Model;
+using Landing.Library.Interfaces;
 using Landing.Repository.Interfase;
 using Landing.Repository.Loader;
 using System.Collections.Generic;

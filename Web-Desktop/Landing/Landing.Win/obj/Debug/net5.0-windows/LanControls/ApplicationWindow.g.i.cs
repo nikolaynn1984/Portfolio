@@ -62,7 +62,7 @@ namespace Landing.Win.LanControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Landing.Win;V1.0.0.0;component/lancontrols/applicationwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Landing.Win;component/lancontrols/applicationwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\LanControls\ApplicationWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

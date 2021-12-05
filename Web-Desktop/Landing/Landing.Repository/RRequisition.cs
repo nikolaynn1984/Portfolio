@@ -1,12 +1,12 @@
 ﻿using System;
-using Landing.Interface;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using Landing.Repository.Interfase;
 using Landing.Repository.Loader;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
 using Landing.Repository.Hub;
+using Landing.Library.Interfaces;
 
 namespace Landing.Repository
 {

@@ -1,4 +1,4 @@
-﻿using Landing.Model.Data;
+﻿using Landing.Library.Model;
 using Landing.Repository.Interfase;
 using Newtonsoft.Json;
 using System;

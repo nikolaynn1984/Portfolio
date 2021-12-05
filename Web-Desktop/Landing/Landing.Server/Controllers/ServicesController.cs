@@ -2,11 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Landing.Model.Data;
-using Landing.Interface;
+using Landing.Library.Model;
 using Landing.Server.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Landing.Library.Interfaces;
 
 namespace Landing.Server.Controllers
 {

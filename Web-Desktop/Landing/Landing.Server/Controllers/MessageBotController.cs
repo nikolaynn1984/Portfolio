@@ -1,13 +1,13 @@
-﻿using Landing.Interface;
-using Landing.Model.Data;
+﻿using Landing.Library.Model;
+using Landing.Library.Interfaces;
 using Landing.Server.Auth;
-using Landing.Server.Intarfase;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Landing.Library.Interfaces.Server;
 
 namespace Landing.Server.Controllers
 {

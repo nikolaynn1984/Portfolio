@@ -1,6 +1,6 @@
-﻿using Landing.Model.ViewModel;
+﻿using Landing.Library.Interfaces.Server;
+using Landing.Library.ViewModel;
 using Landing.Server.Auth;
-using Landing.Server.Intarfase;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

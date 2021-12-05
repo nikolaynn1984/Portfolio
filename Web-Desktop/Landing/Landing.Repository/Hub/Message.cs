@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Landing.Model.Data;
+using Landing.Library.Model;
 using Microsoft.AspNetCore.SignalR.Client;
 
 namespace Landing.Repository.Hub

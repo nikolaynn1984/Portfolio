@@ -28,3 +28,18 @@ D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Lan
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.dll
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Server.Database\obj\Debug\net5.0\ref\Landing.Server.Database.dll
 D:\SkillBox\Обучение C# с нуля до ПРО\Диплом\project\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\Landing.Server.Database.deps.json
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\Landing.Server.Database.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\ref\Landing.Server.Database.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\Landing.Server.Database.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\Landing.Library.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\bin\Debug\net5.0\Landing.Library.pdb
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.csproj.AssemblyReference.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.AssemblyInfoInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.AssemblyInfo.cs
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.csproj.CoreCompileInputs.cache
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.csproj.CopyComplete
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\ref\Landing.Server.Database.dll
+D:\SkillBox\Portfolio\Portfolio\Web-Desktop\Landing\Landing.Server.Database\obj\Debug\net5.0\Landing.Server.Database.pdb

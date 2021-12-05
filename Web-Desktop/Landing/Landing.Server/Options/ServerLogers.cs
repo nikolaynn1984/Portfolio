@@ -1,4 +1,4 @@
-﻿using Landing.Model.Logging;
+﻿using Landing.Library.Logging;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;

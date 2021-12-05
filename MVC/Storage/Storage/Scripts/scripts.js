@@ -240,7 +240,8 @@ $('#LoadFileForm').submit(function (e) {
         var files = fileUpload.files;
     document.querySelector('.load-box-file').classList.remove('is-visible');
         var fileData = new FormData();
-        fileData.append(files[0].name, files[0]);
+    fileData.append(files[0].name, files[0]);
+    console.log(fileData)
     var urlfile = "/Files/Upload/" + folderId;  //Загрузка файла на сервер
     e.preventDefault();
     $.ajax({
